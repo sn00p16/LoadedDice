@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <Reference Include="boardgamelogic">
-      <HintPath>..\..\..\boardgamelogic\boardgamelogic\bin\Debug\netstandard1.4\boardgamelogic.dll</HintPath>
+      <HintPath>Data\boardgamelogic.dll</HintPath>
     </Reference>
   </ItemGroup>
 
