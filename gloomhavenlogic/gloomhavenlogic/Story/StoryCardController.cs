@@ -8,7 +8,7 @@ using System.Diagnostics;
 using gloomhavenlogic.Class;
 using gloomhavenlogic.World;
 
-namespace gloomhavenlogic.City
+namespace gloomhavenlogic.Story
 {
     public class StoryCardController
     {
