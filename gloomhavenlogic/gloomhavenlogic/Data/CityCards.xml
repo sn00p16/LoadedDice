@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <CityCards>
 	<Card index = "1">
-		<Story text = "CITYCARD_01_STORY"></Story>
+		<Story text = "CARD_01_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_01_OPTION_00">
-				<Story text = "CITYCARD_01_OPTION_00_STORY"></Story>
+			<Option text = "CARD_01_OPT_00">
+				<Story text = "CARD_01_OPT_00_STORY"></Story>
 				<Reward param = "ExperienceEach" value = "10"></Reward>
 				<Choice options = "2">
 					<Option text = "Lose 5 gold each">
@@ -17,67 +17,67 @@
 					</Option>
 				</Choice>
 			</Option>
-			<Option text = "CITYCARD_01_OPTION_01">
-				<Story text = "CITYCARD_01_OPTION_01_STORY"></Story>
+			<Option text = "CARD_01_OPT_01">
+				<Story text = "CARD_01_OPT_01_STORY"></Story>
 				<Reward param = "Reputation" value = "1"></Reward>
 				<CardTreatment param = "ReturnToDeck"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "2">
-		<Story text = "CITYCARD_02_STORY"></Story>
+		<Story text = "CARD_02_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_02_OPTION_00">
+			<Option text = "CARD_02_OPT_00">
 				<Condition param = "GoldCollective" comp = "GREATER_THAN_OR_EQUAL_TO" value = "10">
 					<Success>
-						<Story text = "CITYCARD_02_OPTION_00_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_02_OPT_00_CON_00_STORY"></Story>
 						<CardTreatment param = "ReturnToDeck"></CardTreatment>
 					</Success>
 					<Failure>
-						<Story text = "CITYCARD_02_OPTION_00_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_02_OPT_00_CON_01_STORY"></Story>
 						<CardTreatment param = "ReturnToDeck"></CardTreatment>
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_02_OPTION_01">
-				<Story text = "CITYCARD_02_OPTION_01_STORY"></Story>
+			<Option text = "CARD_02_OPT_01">
+				<Story text = "CARD_02_OPT_01_STORY"></Story>
 				<CardTreatment param = "ReturnToDeck"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "3">
-		<Story text = "CITYCARD_03_STORY"></Story>
+		<Story text = "CARD_03_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_03_OPTION_00">
+			<Option text = "CARD_03_OPT_00">
 				<Condition param = "GoldCollective" comp = "GREATER_THAN_OR_EQUAL_TO" value = "10">
 					<Success>
-						<Story text = "CITYCARD_03_OPTION_00_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_03_OPT_00_CON_00_STORY"></Story>
 						<Reward param = "GoldCollective" value = "-10"></Reward>
 						<Reward param = "ItemSpecific" value = "125"></Reward>
 						<Reward param = "Achievement" value = "Ancient Technology"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Success>
 					<Failure>
-						<Story text = "CITYCARD_03_OPTION_00_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_03_OPT_00_CON_01_STORY"></Story>
 						<CardTreatment param = "ReturnToDeck"></CardTreatment>
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_03_OPTION_01">
-				<Story text = "CITYCARD_03_OPTION_01_STORY"></Story>
+			<Option text = "CARD_03_OPT_01">
+				<Story text = "CARD_03_OPT_01_STORY"></Story>
 				<CardTreatment param = "ReturnToDeck"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "4">
-		<Story text = "CITYCARD_04_STORY"></Story>
+		<Story text = "CARD_04_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_04_OPTION_00">
-				<Story text = "CITYCARD_04_OPTION_00_STORY"></Story>
+			<Option text = "CARD_04_OPT_00">
+				<Story text = "CARD_04_OPT_00_STORY"></Story>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
-			<Option text = "CITYCARD_04_OPTION_01">
-				<Story text = "CITYCARD_04_OPTION_01_STORY"></Story>
+			<Option text = "CARD_04_OPT_01">
+				<Story text = "CARD_04_OPT_01_STORY"></Story>
 				<Reward param = "Checks" value = "-1"></Reward>
 				<Reward param = "Reputation" value = "1"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
@@ -85,17 +85,17 @@
 		</Choice>
 	</Card>
 	<Card index = "5">
-		<Story text = "CITYCARD_05_STORY"></Story>
+		<Story text = "CARD_05_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_05_OPTION_00">
-				<Story text = "CITYCARD_05_OPTION_00_STORY"></Story>
+			<Option text = "CARD_05_OPT_00">
+				<Story text = "CARD_05_OPT_00_STORY"></Story>
 				<Reward param = "Checks" value = "-1"></Reward>
 				<Reward param = "Reputation" value = "1"></Reward>
 				<Reward param = "Prosperity" value = "1"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
-			<Option text = "CITYCARD_05_OPTION_01">
-				<Story text = "CITYCARD_05_OPTION_01_STORY"></Story>
+			<Option text = "CARD_05_OPT_01">
+				<Story text = "CARD_05_OPT_01_STORY"></Story>
 				<Condition param = "Reputation" comp = "LESS_THAN" value = "-4">
 					<Success>
 						<Reward param = "GoldEach" value = "10"></Reward>
@@ -110,16 +110,16 @@
 		</Choice>
 	</Card>
 	<Card index = "6">
-		<Story text = "CITYCARD_06_STORY"></Story>
+		<Story text = "CARD_06_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_06_OPTION_00">
-				<Story text = "CITYCARD_06_OPTION_00_STORY"></Story>
+			<Option text = "CARD_06_OPT_00">
+				<Story text = "CARD_06_OPT_00_STORY"></Story>
 				<Reward param = "ExperienceEach" value = "5"></Reward>
 				<Reward param = "Prosperity" value = "1"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
-			<Option text = "CITYCARD_06_OPTION_01">
-				<Story text = "CITYCARD_06_OPTION_01_STORY"></Story>
+			<Option text = "CARD_06_OPT_01">
+				<Story text = "CARD_06_OPT_01_STORY"></Story>
 				<Reward param = "ItemRandom" value = "1"></Reward>
 				<Condition param = "Reputation" comp = "GREATER_THAN" value = "4">
 					<Success>
@@ -135,10 +135,10 @@
 		</Choice>
 	</Card>
 	<Card index = "7">
-		<Story text = "CITYCARD_07_STORY"></Story>
+		<Story text = "CARD_07_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_07_OPTION_00">
-				<Story text = "CITYCARD_07_OPTION_00_STORY"></Story>
+			<Option text = "CARD_07_OPT_00">
+				<Story text = "CARD_07_OPT_00_STORY"></Story>
 				<Reward param = "GoldEach" value = "5"></Reward>
 				<Condition param = "Reputation" comp = "GREATER_THAN" value = "9">
 					<Success>
@@ -158,8 +158,8 @@
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_07_OPTION_01">
-				<Story text = "CITYCARD_07_OPTION_01_STORY"></Story>
+			<Option text = "CARD_07_OPT_01">
+				<Story text = "CARD_07_OPT_01_STORY"></Story>
 				<Condition param = "Reputation" comp = "GREATER_THAN" value = "4">
 					<Success>
 						<Reward param = "Reputation" value = "1"></Reward>
@@ -181,20 +181,20 @@
 		</Choice>
 	</Card>
 	<Card index = "8">
-		<Story text = "CITYCARD_08_STORY"></Story>
+		<Story text = "CARD_08_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_08_OPTION_00">
+			<Option text = "CARD_08_OPT_00">
 				<Condition param = "Reputation" comp = "GREATER_THAN" value = "9">
 					<Success>
 						<Condition param = "GoldCollective" comp = "GREATER_THAN_OR_EQUAL_TO" value = "15">
 							<Success>
-								<Story text = "CITYCARD_08_OPTION_00_CONDITION_00_STORY"></Story>
+								<Story text = "CARD_08_OPT_00_CON_00_STORY"></Story>
 								<Reward param = "Location" value = "93"></Reward>
 								<Reward param = "Achievement" value = "A Map To Treasure"></Reward>
 								<CardTreatment param = "Destroy"></CardTreatment>
 							</Success>
 							<Failure>
-								<Story text = "CITYCARD_08_OPTION_00_CONDITION_01_STORY"></Story>
+								<Story text = "CARD_08_OPT_00_CON_01_STORY"></Story>
 								<CardTreatment param = "ReturnToDeck"></CardTreatment>
 							</Failure>
 						</Condition>
@@ -202,30 +202,30 @@
 					<Failure>
 						<Condition param = "GoldCollective" comp = "GREATER_THAN_OR_EQUAL_TO" value = "20">
 							<Success>
-								<Story text = "CITYCARD_08_OPTION_00_CONDITION_00_STORY"></Story>
+								<Story text = "CARD_08_OPT_00_CON_00_STORY"></Story>
 								<Reward param = "Location" value = "93"></Reward>
 								<Reward param = "Achievement" value = "A Map To Treasure"></Reward>
 								<CardTreatment param = "Destroy"></CardTreatment>
 							</Success>
 							<Failure>
-								<Story text = "CITYCARD_08_OPTION_00_CONDITION_01_STORY"></Story>
+								<Story text = "CARD_08_OPT_00_CON_01_STORY"></Story>
 								<CardTreatment param = "ReturnToDeck"></CardTreatment>
 							</Failure>
 						</Condition>
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_08_OPTION_01">
-				<Story text = "CITYCARD_08_OPTION_01_STORY"></Story>
+			<Option text = "CARD_08_OPT_01">
+				<Story text = "CARD_08_OPT_01_STORY"></Story>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "9">
-		<Story text = "CITYCARD_09_STORY"></Story>
+		<Story text = "CARD_09_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_09_OPTION_00">
-				<Story text = "CITYCARD_09_OPTION_00_STORY"></Story>
+			<Option text = "CARD_09_OPT_00">
+				<Story text = "CARD_09_OPT_00_STORY"></Story>
 				<Condition param = "Reputation" comp = "LESS_THAN" value = "-9">
 					<Success>
 						<Reward param = "GoldEach" value = "15"></Reward>
@@ -237,46 +237,46 @@
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_09_OPTION_01">
-				<Story text = "CITYCARD_09_OPTION_01_STORY"></Story>
+			<Option text = "CARD_09_OPT_01">
+				<Story text = "CARD_09_OPT_01_STORY"></Story>
 				<Reward param = "Prosperity" value = "1"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "10">
-		<Story text = "CITYCARD_10_STORY"></Story>
+		<Story text = "CARD_10_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_10_OPTION_00">
+			<Option text = "CARD_10_OPT_00">
 				<Condition param = "Reputation" comp = "GREATER_THAN" value = "-5">
 					<Success>
-						<Story text = "CITYCARD_10_OPTION_00_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_10_OPT_00_CON_00_STORY"></Story>
 						<Reward param = "GoldEach" value = "-5"></Reward>
 						<CardTreatment param = "ReturnToDeck"></CardTreatment>
 					</Success>
 					<Failure>
-						<Story text = "CITYCARD_10_OPTION_00_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_10_OPT_00_CON_01_STORY"></Story>
 						<Reward param = "GoldEach" value = "5"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_10_OPTION_01">
-				<Story text = "CITYCARD_10_OPTION_01_STORY"></Story>
+			<Option text = "CARD_10_OPT_01">
+				<Story text = "CARD_10_OPT_01_STORY"></Story>
 				<Reputation param = "Reputation" value = "1"></Reputation>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "11">
-		<Story text = "CITYCARD_01_STORY"></Story>
+		<Story text = "CARD_01_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_11_OPTION_00">
+			<Option text = "CARD_11_OPT_00">
 				<Choice options = "2">
 					<Condition param = "GoldCollective" comp = "GREATER_THAN_OR_EQUAL_TO" value = "5">
 						<Success>
 							<Reward param = "GoldCollective" value = "-5"></Reward>
-							<Story text = "CITYCARD_11_OPTION_00_CONDITION_00_STORY"></Story>
+							<Story text = "CARD_11_OPT_00_CON_00_STORY"></Story>
 							<Reward param = "ItemRandom" value = "1"></Reward>
 							<Condition param = "Reputation" comp = "GREATER_THAN" value = "9">
 								<Success>
@@ -289,15 +289,15 @@
 							</Condition>
 						</Success>
 						<Failure>
-							<Story text = "CITYCARD_11_OPTION_00_CONDITION_01_STORY"></Story>
+							<Story text = "CARD_11_OPT_00_CON_01_STORY"></Story>
 							<Reward param = "Reputation" value = "-1"></Reward>
 							<CardTreatment param = "Destroy"></CardTreatment>
 						</Failure>
 					</Condition>
 				</Choice>
 			</Option>
-			<Option text = "CITYCARD_11_OPTION_01">
-				<Story text = "CITYCARD_11_OPTION_01_STORY"></Story>
+			<Option text = "CARD_11_OPT_01">
+				<Story text = "CARD_11_OPT_01_STORY"></Story>
 				<Condition param = "Reputation" comp = "LESS_THAN" value = "-4">
 					<Success>
 						<Reward param = "Reputation" value = "1"></Reward>
@@ -311,15 +311,15 @@
 		</Choice>
 	</Card>
 	<Card index = "12">
-		<Story text = "CITYCARD_12_STORY"></Story>
+		<Story text = "CARD_12_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_12_OPTION_00">
-				<Story text = "CITYCARD_12_OPTION_00_STORY"></Story>
+			<Option text = "CARD_12_OPT_00">
+				<Story text = "CARD_12_OPT_00_STORY"></Story>
 				<Reward param = "Reputation" value = "-1"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
-			<Option text = "CITYCARD_12_OPTION_01">
-				<Story text = "CITYCARD_12_OPTION_01_STORY"></Story>
+			<Option text = "CARD_12_OPT_01">
+				<Story text = "CARD_12_OPT_01_STORY"></Story>
 				<Reward param = "Checks" value = "-1"></Reward>
 				<Reward param = "GoldEach" value = "10"></Reward>
 				<Reward param = "Reputation" value = "1"></Reward>
@@ -328,61 +328,61 @@
 		</Choice>
 	</Card>
 	<Card index = "13">
-		<Story text = "CITYCARD_13_STORY"></Story>
+		<Story text = "CARD_13_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_13_OPTION_00">
-				<Story text = "CITYCARD_13_OPTION_00_STORY"></Story>
+			<Option text = "CARD_13_OPT_00">
+				<Story text = "CARD_13_OPT_00_STORY"></Story>
 				<Reward param = "Bless" value = "1"></Reward>
 				<Reward param = "GoldEach" value = "-3"></Reward>
 				<CardTreatment param = "ReturnToDeck"></CardTreatment>
 			</Option>
-			<Option text = "CITYCARD_13_OPTION_01">
-				<Story text = "CITYCARD_13_OPTION_01_STORY"></Story>
+			<Option text = "CARD_13_OPT_01">
+				<Story text = "CARD_13_OPT_01_STORY"></Story>
 				<CardTreatment param = "ReturnToDeck"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "14">
-		<Story text = "CITYCARD_14_STORY"></Story>
+		<Story text = "CARD_14_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_14_OPTION_00">
-				<Story text = "CITYCARD_14_OPTION_00_STORY"></Story>
+			<Option text = "CARD_14_OPT_00">
+				<Story text = "CARD_14_OPT_00_STORY"></Story>
 				<Reward param = "ExperienceEach" value = "10"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
-			<Option text = "CITYCARD_14_OPTION_01">
-				<Story text = "CITYCARD_14_OPTION_01_STORY"></Story>
+			<Option text = "CARD_14_OPT_01">
+				<Story text = "CARD_14_OPT_01_STORY"></Story>
 				<Reward param = "Reputation" value = "2"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "15">
-		<Story text = "CITYCARD_15_STORY"></Story>
+		<Story text = "CARD_15_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_15_OPTION_00">
+			<Option text = "CARD_15_OPT_00">
 				<Condition param = "Reputation" comp = "GREATER_THAN" value = "5">
 					<Success>
-						<Story text = "CITYCARD_15_OPTION_00_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_15_OPT_00_CON_00_STORY"></Story>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Success>
 					<Failure>
-						<Story text = "CITYCARD_15_OPTION_00_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_15_OPT_00_CON_01_STORY"></Story>
 						<Reward param = "Reputation" value = "-2"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_15_OPTION_01">
-				<Story text = "CITYCARD_15_OPTION_01_STORY"></Story>
+			<Option text = "CARD_15_OPT_01">
+				<Story text = "CARD_15_OPT_01_STORY"></Story>
 				<Condition param = "GoldCollective" comp = "GREATER_THAN_OR_EQUAL_TO" value = "15">
 					<Success>
 						<Reward param = "GoldCollective" value = "-15"></Reward>
-						<Story text = "CITYCARD_15_OPTION_01_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_15_OPT_01_CON_00_STORY"></Story>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Success>
 					<Failure>
-						<Story text = "CITYCARD_15_OPTION_01_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_15_OPT_01_CON_01_STORY"></Story>
 						<Reward param = "Checks" value = "-1"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Failure>
@@ -391,74 +391,74 @@
 		</Choice>
 	</Card>
 	<Card index = "16">
-		<Story text = "CITYCARD_16_STORY"></Story>
+		<Story text = "CARD_16_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_16_OPTION_00">
+			<Option text = "CARD_16_OPT_00">
 				<Condition param = "GoldCollective" comp = "GREATER_THAN_OR_EQUAL_TO" value = "10">
 					<Success>
 						<Reward param = "GoldCollective" value = "-10"></Reward>
-						<Story text = "CITYCARD_16_OPTION_00_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_16_OPT_00_CON_00_STORY"></Story>
 						<Reward param = "CityEvent" value = "70"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Success>
 					<Failure>
-						<Story text = "CITYCARD_16_OPTION_00_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_16_OPT_00_CON_01_STORY"></Story>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_16_OPTION_01">
-				<Story text = "CITYCARD_16_OPTION_01_STORY"></Story>
+			<Option text = "CARD_16_OPT_01">
+				<Story text = "CARD_16_OPT_01_STORY"></Story>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "17">
-		<Story text = "CITYCARD_17_STORY"></Story>
+		<Story text = "CARD_17_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_17_OPTION_00">
-				<Story text = "CITYCARD_17_OPTION_00_STORY"></Story>
+			<Option text = "CARD_17_OPT_00">
+				<Story text = "CARD_17_OPT_00_STORY"></Story>
 				<Reward param = "GoldCollective" value = "10"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
-			<Option text = "CITYCARD_17_OPTION_01">
-				<Story text = "CITYCARD_17_OPTION_01_STORY"></Story>
+			<Option text = "CARD_17_OPT_01">
+				<Story text = "CARD_17_OPT_01_STORY"></Story>
 				<Reward param = "Location" value = "81"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "18">
-		<Story text = "CITYCARD_18_STORY"></Story>
+		<Story text = "CARD_18_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_18_OPTION_00">
-				<Story text = "CITYCARD_18_OPTION_00_STORY"></Story>
+			<Option text = "CARD_18_OPT_00">
+				<Story text = "CARD_18_OPT_00_STORY"></Story>
 				<Reward param = "Reputation" value = "-1"></Reward>
 				<CardTreatment param = "ReturnToDeck"></CardTreatment>
 			</Option>
-			<Option text = "CITYCARD_18_OPTION_01">
-				<Story text = "CITYCARD_18_OPTION_01_STORY"></Story>
+			<Option text = "CARD_18_OPT_01">
+				<Story text = "CARD_18_OPT_01_STORY"></Story>
 				<Reward param = "GoldEach" value = "2"></Reward>
 				<CardTreatment param = "ReturnToDeck"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "19">
-		<Story text = "CITYCARD_19_STORY"></Story>
+		<Story text = "CARD_19_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_19_OPTION_00">
+			<Option text = "CARD_19_OPT_00">
 				<Condition param = "GoldCollective" comp = "GREATER_THAN_OR_EQUAL_TO" value = "20">
 					<Success>
 						<Condition param = "Reputation" comp = "GREATER_THAN" value = "9">
 							<Success>
 								<Reward param = "GoldCollective" value = "-20"></Reward>
-								<Story text = "CITYCARD_19_OPTION_00_CONDITION_00_STORY"></Story>
+								<Story text = "CARD_19_OPT_00_CON_00_STORY"></Story>
 								<Reward param = "Reputation" value = "2"></Reward>
 								<CardTreatment param = "Destroy"></CardTreatment>
 							</Success>
 							<Failure>
 								<Reward param = "GoldCollective" value = "-20"></Reward>
-								<Story text = "CITYCARD_19_OPTION_00_CONDITION_01_STORY"></Story>
+								<Story text = "CARD_19_OPT_00_CON_01_STORY"></Story>
 								<CardTreatment param = "Destroy"></CardTreatment>
 							</Failure>
 						</Condition>
@@ -466,13 +466,13 @@
 					<Failure>
 						<Condition param = "Reputation" comp = "LESS_THAN" value = "-4">
 							<Success>
-								<Story text = "CITYCARD_19_OPTION_01_CONDITION_00_STORY"></Story>
+								<Story text = "CARD_19_OPT_01_CON_00_STORY"></Story>
 								<Reward param = "GoldCollective" value = "-5"></Reward>
 								<Reward param = "Reputation" value = "-1"></Reward>
 								<CardTreatment param = "Destroy"></CardTreatment>
 							</Success>
 							<Failure>
-								<Story text = "CITYCARD_19_OPTION_01_CONDITION_01_STORY"></Story>
+								<Story text = "CARD_19_OPT_01_CON_01_STORY"></Story>
 								<Reward param = "GoldCollective" value = "-5"></Reward>
 								<CardTreatment param = "Destroy"></CardTreatment>
 							</Failure>
@@ -480,16 +480,16 @@
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_19_OPTION_01">
+			<Option text = "CARD_19_OPT_01">
 				<Condition param = "Reputation" comp = "LESS_THAN" value = "-4">
 					<Success>
-						<Story text = "CITYCARD_19_OPTION_01_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_19_OPT_01_CON_00_STORY"></Story>
 						<Reward param = "GoldCollective" value = "-5"></Reward>
 						<Reward param = "Reputation" value = "-1"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Success>
 					<Failure>
-						<Story text = "CITYCARD_19_OPTION_01_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_19_OPT_01_CON_01_STORY"></Story>
 						<Reward param = "GoldCollective" value = "-5"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Failure>
@@ -498,147 +498,147 @@
 		</Choice>
 	</Card>
 	<Card index = "20">
-		<Story text = "CITYCARD_20_STORY"></Story>
+		<Story text = "CARD_20_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_20_OPTION_00">
+			<Option text = "CARD_20_OPT_00">
 				<Condition param = "Reputation" comp = "GREATER_THAN" value = "9">
 					<Success>
-						<Story text = "CITYCARD_20_OPTION_00_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_20_OPT_00_CON_00_STORY"></Story>
 						<Reward param = "GoldCollective" value = "10"></Reward>
 						<CardTreatment param = "ReturnToDeck"></CardTreatment>
 					</Success>
 					<Failure>
-						<Story text = "CITYCARD_20_OPTION_00_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_20_OPT_00_CON_01_STORY"></Story>
 						<Reward param = "ExperienceEach" value = "5"></Reward>
 						<Reward param = "GoldCollective" value = "10"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_20_OPTION_01">
-				<Story text = "CITYCARD_20_OPTION_01_STORY"></Story>
+			<Option text = "CARD_20_OPT_01">
+				<Story text = "CARD_20_OPT_01_STORY"></Story>
 				<Reward param = "Prosperity" value = "-1"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "21">
-		<Story text = "CITYCARD_21_STORY"></Story>
+		<Story text = "CARD_21_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_21_OPTION_00">
+			<Option text = "CARD_21_OPT_00">
 				<Condition param = "Reputation" comp = "GREATER_THAN" value = "7">
 					<Success>
-						<Story text = "CITYCARD_21_OPTION_00_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_21_OPT_00_CON_00_STORY"></Story>
 						<Reward param = "GoldCollective" value = "5"></Reward>
 						<Reward param = "RoadEvent" value = "65"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Success>
 					<Failure>
-						<Story text = "CITYCARD_21_OPTION_00_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_21_OPT_00_CON_01_STORY"></Story>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_21_OPTION_01">
-				<Story text = "CITYCARD_21_OPTION_01_STORY"></Story>
+			<Option text = "CARD_21_OPT_01">
+				<Story text = "CARD_21_OPT_01_STORY"></Story>
 				<Reward param = "RoadEvent" value = "65"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "22">
-		<Story text = "CITYCARD_22_STORY"></Story>
+		<Story text = "CARD_22_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_22_OPTION_00">
-				<Story text = "CITYCARD_22_OPTION_00_STORY"></Story>
+			<Option text = "CARD_22_OPT_00">
+				<Story text = "CARD_22_OPT_00_STORY"></Story>
 				<Reward param = "Reputation" value = "2"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
-			<Option text = "CITYCARD_22_OPTION_01">
-				<Story text = "CITYCARD_22_OPTION_01_STORY"></Story>
+			<Option text = "CARD_22_OPT_01">
+				<Story text = "CARD_22_OPT_01_STORY"></Story>
 				<Reward param = "Checks" value = "1"></Reward>
 				<CardTreatment param = "ReturnToDeck"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "23">
-		<Story text = "CITYCARD_23_STORY"></Story>
+		<Story text = "CARD_23_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_23_OPTION_00">
-				<Story text = "CITYCARD_23_OPTION_00_STORY"></Story>
+			<Option text = "CARD_23_OPT_00">
+				<Story text = "CARD_23_OPT_00_STORY"></Story>
 				<Reward param = "Reputation" value = "1"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
-			<Option text = "CITYCARD_23_OPTION_01">
-				<Story text = "CITYCARD_23_OPTION_01_STORY"></Story>
+			<Option text = "CARD_23_OPT_01">
+				<Story text = "CARD_23_OPT_01_STORY"></Story>
 				<Reward param = "Bless" value = "1"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "24">
-		<Story text = "CITYCARD_24_STORY"></Story>
+		<Story text = "CARD_24_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_24_OPTION_00">
-				<Story text = "CITYCARD_24_OPTION_00_STORY"></Story>
+			<Option text = "CARD_24_OPT_00">
+				<Story text = "CARD_24_OPT_00_STORY"></Story>
 				<Reward param = "ExperienceEach" value = "10"></Reward>
 				<CardTreatment param = "ReturnToDeck"></CardTreatment>
 			</Option>
-			<Option text = "CITYCARD_24_OPTION_01">
-				<Story text = "CITYCARD_24_OPTION_01_STORY"></Story>
+			<Option text = "CARD_24_OPT_01">
+				<Story text = "CARD_24_OPT_01_STORY"></Story>
 				<Reward param = "Prosperity" value = "1"></Reward>
 				<CardTreatment param = "ReturnToDeck"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "25">
-		<Story text = "CITYCARD_25_STORY"></Story>
+		<Story text = "CARD_25_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_25_OPTION_00">
+			<Option text = "CARD_25_OPT_00">
 				<Condition param = "Class" comp = "ContainsAny" value = "Brute,Cragheart,LightningBolt">
 					<Success>
-						<Story text = "CITYCARD_25_OPTION_00_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_25_OPT_00_CON_00_STORY"></Story>
 						<Reward param = "GoldCollective" value = "5"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Success>
 					<Failure>
-						<Story text = "CITYCARD_25_OPTION_00_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_25_OPT_00_CON_01_STORY"></Story>
 						<Reward param = "GoldCollective" value = "-10"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_25_OPTION_01">
-				<Story text = "CITYCARD_25_OPTION_01_STORY"></Story>
+			<Option text = "CARD_25_OPT_01">
+				<Story text = "CARD_25_OPT_01_STORY"></Story>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "26">
-		<Story text = "CITYCARD_26_STORY"></Story>
+		<Story text = "CARD_26_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_26_OPTION_00">
+			<Option text = "CARD_26_OPT_00">
 				<Condition param = "Class" comp = "ContainsAny" value = "Tinkerer">
 					<Success>
-						<Story text = "CITYCARD_26_OPTION_00_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_26_OPT_00_CON_00_STORY"></Story>
 						<Reward param = "Reputation" value = "2"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Success>
 					<Failure>
-						<Story text = "CITYCARD_26_OPTION_00_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_26_OPT_00_CON_01_STORY"></Story>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_26_OPTION_01">
+			<Option text = "CARD_26_OPT_01">
 				<Condition param = "Class" comp = "ContainsAny" value = "Scoundrel,Mindthief,Eclipse">
 					<Success>
-						<Story text = "CITYCARD_26_OPTION_01_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_26_OPT_01_CON_00_STORY"></Story>
 						<Reward param = "GoldCollective" value = "10"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Success>
 					<Failure>
-						<Story text = "CITYCARD_26_OPTION_01_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_26_OPT_01_CON_01_STORY"></Story>
 						<Reward param = "Reputation" value = "-1"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Failure>
@@ -647,77 +647,77 @@
 		</Choice>
 	</Card>
 	<Card index = "27">
-		<Story text = "CITYCARD_27_STORY"></Story>
+		<Story text = "CARD_27_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_27_OPTION_00">
+			<Option text = "CARD_27_OPT_00">
 				<Condition param = "Class" comp = "ContainsAny" value = "Spellweaver,Doomstalker,MusicNote">
 					<Success>
-						<Story text = "CITYCARD_27_OPTION_00_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_27_OPT_00_CON_00_STORY"></Story>
 						<Reward param = "Prosperity" value = "1"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Success>
 					<Failure>
-						<Story text = "CITYCARD_27_OPTION_00_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_27_OPT_00_CON_01_STORY"></Story>
 						<Reward param = "Reputation" value = "-1"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_27_OPTION_01">
-				<Story text = "CITYCARD_27_OPTION_01_STORY"></Story>
+			<Option text = "CARD_27_OPT_01">
+				<Story text = "CARD_27_OPT_01_STORY"></Story>
 				<Reward param = "CityEvent" value = "60"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "28">
-		<Story text = "CITYCARD_28_STORY"></Story>
+		<Story text = "CARD_28_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_28_OPTION_00">
+			<Option text = "CARD_28_OPT_00">
 				<Condition param = "Class" comp = "ContainsAny" value = "Scoundrel,Mindthief,Eclipse">
 					<Success>
-						<Story text = "CITYCARD_28_OPTION_00_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_28_OPT_00_CON_00_STORY"></Story>
 						<Reward param = "GoldEach" value = "10"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Success>
 					<Failure>
-						<Story text = "CITYCARD_28_OPTION_00_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_28_OPT_00_CON_01_STORY"></Story>
 						<Reward param = "Reputation" value = "-3"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_28_OPTION_01">
-				<Story text = "CITYCARD_28_OPTION_01_STORY"></Story>
+			<Option text = "CARD_28_OPT_01">
+				<Story text = "CARD_28_OPT_01_STORY"></Story>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "29">
-		<Story text = "CITYCARD_29_STORY"></Story>
+		<Story text = "CARD_29_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_29_OPTION_00">
+			<Option text = "CARD_29_OPT_00">
 				<Condition param = "Class" comp = "ContainsAny" value = "Cragheart,Triangles">
 					<Success>
-						<Story text = "CITYCARD_29_OPTION_00_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_29_OPT_00_CON_00_STORY"></Story>
 						<Reward param = "Prosperity" value = "1"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Success>
 					<Failure>
-						<Story text = "CITYCARD_29_OPTION_00_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_29_OPT_00_CON_01_STORY"></Story>
 						<CardTreatment param = "ReturnToDeck"></CardTreatment>
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_29_OPTION_01">
+			<Option text = "CARD_29_OPT_01">
 				<Condition param = "Class" comp = "ContainsAny" value = "Scoundrel,Saw,MusicNote">
 					<Success>
-						<Story text = "CITYCARD_29_OPTION_01_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_29_OPT_01_CON_00_STORY"></Story>
 						<Reward param = "Prosperity" value = "1"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Success>
 					<Failure>
-						<Story text = "CITYCARD_29_OPTION_01_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_29_OPT_01_CON_01_STORY"></Story>
 						<CardTreatment param = "ReturnToDeck"></CardTreatment>
 					</Failure>
 				</Condition>
@@ -725,52 +725,52 @@
 		</Choice>
 	</Card>
 	<Card index = "30">
-		<Story text = "CITYCARD_30_STORY"></Story>
+		<Story text = "CARD_30_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_30_OPTION_00">
+			<Option text = "CARD_30_OPT_00">
 				<Condition param = "Class" comp = "ContainsAny" value = "Mindthief">
 					<Success>
-						<Story text = "CITYCARD_30_OPTION_00_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_30_OPT_00_CON_00_STORY"></Story>
 						<Reward param = "GoldEach" value = "5"></Reward>
 						<Reward param = "ItemSpecific" value = "105"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Success>
 					<Failure>
-						<Story text = "CITYCARD_30_OPTION_00_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_30_OPT_00_CON_01_STORY"></Story>
 						<Reward param = "GoldEach" value = "-5"></Reward>
 						<CardTreatment param = "ReturnToDeck"></CardTreatment>
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_30_OPTION_01">
-				<Story text = "CITYCARD_30_OPTION_01_STORY"></Story>
+			<Option text = "CARD_30_OPT_01">
+				<Story text = "CARD_30_OPT_01_STORY"></Story>
 				<Reward param = "Reputation" value = "-1"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "31">
-		<Story text = "CITYCARD_31_STORY"></Story>
+		<Story text = "CARD_31_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_31_OPTION_00">
-				<Story text = "CITYCARD_31_OPTION_00_STORY"></Story>
+			<Option text = "CARD_31_OPT_00">
+				<Story text = "CARD_31_OPT_00_STORY"></Story>
 				<Reward param = "GoldCollective" value = "20"></Reward>
 				<Reward param = "Location" value = "83"></Reward>
 				<Reward param = "Achievement" value = "Bad Business"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
-			<Option text = "CITYCARD_31_OPTION_01">
+			<Option text = "CARD_31_OPT_01">
 				<Condition param = "Class" comp = "ContainsAny" value = "Sun">
 					<Success>
-						<Story text = "CITYCARD_31_OPTION_01_CONDITION_00_STORY"></Story>
-						<Story text = "CITYCARD_31_OPTION_00_STORY"></Story>
+						<Story text = "CARD_31_OPT_01_CON_00_STORY"></Story>
+						<Story text = "CARD_31_OPT_00_STORY"></Story>
 						<Reward param = "GoldCollective" value = "20"></Reward>
 						<Reward param = "Location" value = "83"></Reward>
 						<Reward param = "Achievement" value = "Bad Business"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Success>
 					<Failure>
-						<Story text = "CITYCARD_31_OPTION_01_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_31_OPT_01_CON_01_STORY"></Story>
 						<Reward param = "GoldEach" value = "-10"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Failure>
@@ -779,32 +779,32 @@
 		</Choice>
 	</Card>
 	<Card index = "38">
-		<Story text = "CITYCARD_38_STORY"></Story>
+		<Story text = "CARD_38_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_38_OPTION_00">
+			<Option text = "CARD_38_OPT_00">
 				<Condition param = "Class" comp = "ContainsAny" value = "Spellweaver,Doomstalker">
 					<Success>
-						<Story text = "CITYCARD_38_OPTION_00_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_38_OPT_00_CON_00_STORY"></Story>
 						<Reward param = "Prosperity" value = "1"></Reward>
 						<Reward param = "Reputation" value = "-1"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Success> 
 					<Failure>
-						<Story text = "CITYCARD_38_OPTION_00_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_38_OPT_00_CON_01_STORY"></Story>
 						<Reward param = "Prosperity" value = "1"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_38_OPTION_01">
+			<Option text = "CARD_38_OPT_01">
 				<Condition param = "Class" comp = "ContainsAny" value = "Spellweaver,Doomstalker">
 					<Success>
-						<Story text = "CITYCARD_38_OPTION_01_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_38_OPT_01_CON_00_STORY"></Story>
 						<Reward param = "Reputation" value = "-1"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Success> 
 					<Failure>
-						<Story text = "CITYCARD_38_OPTION_01_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_38_OPT_01_CON_01_STORY"></Story>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Failure>
 				</Condition>
@@ -812,16 +812,16 @@
 		</Choice>
 	</Card>
 	<Card index = "40">
-		<Story text = "CITYCARD_40_STORY"></Story>
+		<Story text = "CARD_40_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_40_OPTION_00">
+			<Option text = "CARD_40_OPT_00">
 				<Condition param = "Class" comp = "ContainsAny" value = "Tinkerer,Saw,Sun">
 					<Success>
-						<Story text = "CITYCARD_40_OPTION_00_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_40_OPT_00_CON_00_STORY"></Story>
 						<Reward param = "Reputation" value = "2"></Reward>
 						<Condition param = "Class" comp = "ContainsAny" value = "Spellweaver,Elementalist,Circles">
 							<Success>
-								<Story text = "CITYCARD_40_OPTION_00_CONDITION_01_STORY"></Story>
+								<Story text = "CARD_40_OPT_00_CON_01_STORY"></Story>
 								<Reward param = "Prosperity" value = "1"></Reward>
 								<CardTreatment param = "Destroy"></CardTreatment>
 							</Success>
@@ -833,20 +833,20 @@
 					<Failure>
 						<Condition param = "Class" comp = "ContainsAny" value = "Spellweaver,Elementalist,Circles">
 							<Success>
-								<Story text = "CITYCARD_40_OPTION_00_CONDITION_01_STORY"></Story>
+								<Story text = "CARD_40_OPT_00_CON_01_STORY"></Story>
 								<Reward param = "Prosperity" value = "1"></Reward>
 								<CardTreatment param = "Destroy"></CardTreatment>
 							</Success>
 							<Failure>
-								<Story text = "CITYCARD_40_OPTION_00_CONDITION_02_STORY"></Story>
+								<Story text = "CARD_40_OPT_00_CON_02_STORY"></Story>
 								<CardTreatment param = "Destroy"></CardTreatment>
 							</Failure>
 						</Condition>
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_40_OPTION_01">
-				<Story text = "CITYCARD_40_OPTION_01_STORY"></Story>
+			<Option text = "CARD_40_OPT_01">
+				<Story text = "CARD_40_OPT_01_STORY"></Story>
 				<Reward param = "ItemSpecific" value = "102"></Reward>
 				<Reward param = "Reputation" value = "1"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
@@ -854,20 +854,20 @@
 		</Choice>
 	</Card>
 	<Card index = "41">
-		<Story text = "CITYCARD_41_STORY"></Story>
+		<Story text = "CARD_41_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_41_OPTION_00">
+			<Option text = "CARD_41_OPT_00">
 				<Condition param = "Class" comp = "ContainsAny" value = "BeastTamer">
 					<Success>
 						<Condition param = "GoldCollective" comp = "GREATER_THAN_OR_EQUAL_TO" value = "10">
 							<Success>
 								<Reward param = "GoldCollective" value = "-10"></Reward>
-								<Story text = "CITYCARD_41_OPTION_00_CONDITION_00_STORY"></Story>
+								<Story text = "CARD_41_OPT_00_CON_00_STORY"></Story>
 								<Reward param = "ItemSpecific" value = "34"></Reward>
 								<CardTreatment param = "Destroy"></CardTreatment>
 							</Success>
 							<Failure>
-								<Story text = "CITYCARD_41_OPTION_00_CONDITION_02_STORY"></Story>
+								<Story text = "CARD_41_OPT_00_CON_02_STORY"></Story>
 								<CardTreatment param = "ReturnToDeck"></CardTreatment>
 							</Failure>
 						</Condition>
@@ -876,59 +876,59 @@
 						<Condition param = "GoldCollective" comp = "GREATER_THAN_OR_EQUAL_TO" value = "25">
 							<Success>
 								<Reward param = "GoldCollective" value = "-25"></Reward>
-								<Story text = "CITYCARD_41_OPTION_00_CONDITION_01_STORY"></Story>
+								<Story text = "CARD_41_OPT_00_CON_01_STORY"></Story>
 								<Reward param = "ItemSpecific" value = "34"></Reward>
 								<CardTreatment param = "Destroy"></CardTreatment>
 							</Success>
 							<Failure>
-								<Story text = "CITYCARD_41_OPTION_00_CONDITION_02_STORY"></Story>
+								<Story text = "CARD_41_OPT_00_CON_02_STORY"></Story>
 								<CardTreatment param = "ReturnToDeck"></CardTreatment>
 							</Failure>
 						</Condition>
 					</Failure>
 				</Condition>
 			</Option>
-			<Option text = "CITYCARD_41_OPTION_01">
-				<Story text = "CITYCARD_41_OPTION_01_STORY"></Story>
+			<Option text = "CARD_41_OPT_01">
+				<Story text = "CARD_41_OPT_01_STORY"></Story>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "42">
-		<Story text = "CITYCARD_42_STORY"></Story>
+		<Story text = "CARD_42_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_42_OPTION_00">
-				<Story text = "CITYCARD_42_OPTION_00_STORY"></Story>
+			<Option text = "CARD_42_OPT_00">
+				<Story text = "CARD_42_OPT_00_STORY"></Story>
 				<Reward param = "Prosperity" value = "1"></Reward>
 				<Reward param = "Reputation" value = "1"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
-			<Option text = "CITYCARD_42_OPTION_01">
-				<Story text = "CITYCARD_42_OPTION_01_STORY"></Story>
+			<Option text = "CARD_42_OPT_01">
+				<Story text = "CARD_42_OPT_01_STORY"></Story>
 				<Reward param = "Reputation" value = "-1"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "49">
-		<Story text = "CITYCARD_49_STORY"></Story>
+		<Story text = "CARD_49_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_49_OPTION_00">
-				<Story text = "CITYCARD_49_OPTION_00_STORY"></Story>
+			<Option text = "CARD_49_OPT_00">
+				<Story text = "CARD_49_OPT_00_STORY"></Story>
 				<Reward param = "Prosperity" value = "1"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
-			<Option text = "CITYCARD_49_OPTION_01">
+			<Option text = "CARD_49_OPT_01">
 				<Condition param = "Class" comp = "ContainsAny" value = "Scoundrel,Saw,MusicNote">
 					<Success>
-						<Story text = "CITYCARD_49_OPTION_01_CONDITION_00_STORY"></Story>
+						<Story text = "CARD_49_OPT_01_CON_00_STORY"></Story>
 						<Reward param = "GoldCollective" value = "15"></Reward>
-						<Story text = "CITYCARD_49_OPTION_00_STORY"></Story>
+						<Story text = "CARD_49_OPT_00_STORY"></Story>
 						<Reward param = "Prosperity" value = "1"></Reward>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Success>
 					<Failure>
-						<Story text = "CITYCARD_49_OPTION_01_CONDITION_01_STORY"></Story>
+						<Story text = "CARD_49_OPT_01_CON_01_STORY"></Story>
 						<CardTreatment param = "Destroy"></CardTreatment>
 					</Failure>
 				</Condition>
@@ -936,47 +936,47 @@
 		</Choice>
 	</Card>
 	<Card index = "55">
-		<Story text = "CITYCARD_55_STORY"></Story>
+		<Story text = "CARD_55_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_55_OPTION_00">
-				<Story text = "CITYCARD_55_OPTION_00_STORY"></Story>
+			<Option text = "CARD_55_OPT_00">
+				<Story text = "CARD_55_OPT_00_STORY"></Story>
 				<Reward param = "Prosperity" value = "1"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
-			<Option text = "CITYCARD_55_OPTION_01">
-				<Story text = "CITYCARD_55_OPTION_01_STORY"></Story>
+			<Option text = "CARD_55_OPT_01">
+				<Story text = "CARD_55_OPT_01_STORY"></Story>
 				<Reward param = "Reputation" value = "1"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "71">
-		<Story text = "CITYCARD_71_STORY"></Story>
+		<Story text = "CARD_71_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_71_OPTION_00">
-				<Story text = "CITYCARD_71_OPTION_00_STORY"></Story>
+			<Option text = "CARD_71_OPT_00">
+				<Story text = "CARD_71_OPT_00_STORY"></Story>
 				<Reward param = "CityEvent" value = "72"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
-			<Option text = "CITYCARD_71_OPTION_01">
-				<Story text = "CITYCARD_71_OPTION_01_STORY"></Story>
+			<Option text = "CARD_71_OPT_01">
+				<Story text = "CARD_71_OPT_01_STORY"></Story>
 				<Reward param = "Checks" value = "-1"></Reward>
 				<CardTreatment param = "ReturnToDeck"></CardTreatment>
 			</Option>
 		</Choice>
 	</Card>
 	<Card index = "78">
-		<Story text = "CITYCARD_78_STORY"></Story>
+		<Story text = "CARD_78_STORY"></Story>
 		<Choice options = "2">
-			<Option text = "CITYCARD_78_OPTION_00">
-				<Story text = "CITYCARD_78_OPTION_00_STORY"></Story>
+			<Option text = "CARD_78_OPT_00">
+				<Story text = "CARD_78_OPT_00_STORY"></Story>
 				<Reward param = "Location" value = "94"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
-			<Option text = "CITYCARD_78_OPTION_01">
-				<Story text = "CITYCARD_78_OPTION_01_STORY"></Story>
+			<Option text = "CARD_78_OPT_01">
+				<Story text = "CARD_78_OPT_01_STORY"></Story>
 				<Reward param = "GoldCollective" value = "5"></Reward>
-				<Story text = "CITYCARD_78_OPTION_00_STORY"></Story>
+				<Story text = "CARD_78_OPT_00_STORY"></Story>
 				<Reward param = "Location" value = "94"></Reward>
 				<CardTreatment param = "Destroy"></CardTreatment>
 			</Option>
