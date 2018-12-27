@@ -10,22 +10,24 @@ using gloomhavenlogic.World;
 
 namespace gloomhavenlogic.City
 {
-    public class CityCardController
+    public class StoryCardController
     {
-        public CityCardController() { Cards = new List<StoryCard>(); }
-        
-        protected XElement Data { get; set; }
-        protected List<StoryCard> Cards { get; set; }
-
-        public void GenerateCards()
+        public StoryCardController()
         {
-            LoadXMLFiles();
+            Name = "";
+            Cards = new List<StoryCard>();
+        }
+        public StoryCardController(string name) : this()
+        {
+            Name = name;
         }
 
-        protected void LoadXMLFiles()
+        public string Name { get; set; }
+        public List<StoryCard> Cards { get; set; }
+
+        public void GenerateCards(string data_folder)
         {
-            var path = AppContext.BaseDirectory + "..\\..\\data\\citycards.xml";
-            var xml = XDocument.Load(path);
+            var xml = XDocument.Load(data_folder + Name + "Cards.xml");
             var cardNode = (xml.FirstNode as XElement).Element("Card");
 
             while (cardNode != null)
@@ -95,7 +97,7 @@ namespace gloomhavenlogic.City
             while(nodeToPath != null)
             {
                 nextSteps.Add(CreatePathNode((nodeToPath as XElement).FirstNode as XElement));
-                optionTexts.Add((nodeToPath as XElement).FirstAttribute.Value);
+                optionTexts.Add(Name.ToUpper() + (nodeToPath as XElement).FirstAttribute.Value);
                 nodeToPath = nodeToPath.NextNode;
             }
 
@@ -149,7 +151,7 @@ namespace gloomhavenlogic.City
 
         protected IStoryStep CreateTextNode(XElement node)
         {
-            var story = node.FirstAttribute.Value;
+            var story = Name.ToUpper() + node.FirstAttribute.Value;
 
             var nextStep = CreatePathNode(node.NextNode as XElement);
             return new StoryStepText(story, nextStep);
