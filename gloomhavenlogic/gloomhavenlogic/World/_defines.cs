@@ -28,7 +28,7 @@ namespace gloomhavenlogic.World
         Max
     }
 
-    public enum Achievement
+    public enum GlobalAchievement
     {
         Undefined = -1,
 
@@ -54,11 +54,6 @@ namespace gloomhavenlogic.World
         EndOfGloom,
         AncientTechnology,
         TheAnnihilationOfTheOrder,
-
-        GlobalAchievementMax,
-
-        AMapToTreasure,
-        BadBusiness,
 
         Max
     }

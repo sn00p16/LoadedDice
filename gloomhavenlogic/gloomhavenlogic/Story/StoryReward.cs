@@ -1,4 +1,5 @@
-﻿using gloomhavenlogic.World;
+﻿using gloomhavenlogic.Party;
+using gloomhavenlogic.World;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -12,14 +13,21 @@ namespace gloomhavenlogic.Story
         {
             Parameter = reward;
             Value = value;
+            GlobalAchievement = GlobalAchievement.Undefined;
+            PartyAchievement = PartyAchievement.Undefined;
         }
-        public StoryReward(Achievement achievement) : this()
+        public StoryReward(GlobalAchievement achievement) : this()
         {
-            Achievement = achievement;
+            GlobalAchievement = achievement;
+        }
+        public StoryReward(PartyAchievement achievement) : this()
+        {
+            PartyAchievement = achievement;
         }
 
         protected StoryRewardParameter Parameter { get; set; }
-        protected Achievement Achievement { get; set; }
+        protected GlobalAchievement GlobalAchievement { get; set; }
+        protected PartyAchievement PartyAchievement { get; set; }
         protected int Value { get; set; }
 
         public void Award()

@@ -7,6 +7,7 @@ using System.Xml.Linq;
 using System.Diagnostics;
 using gloomhavenlogic.Class;
 using gloomhavenlogic.World;
+using gloomhavenlogic.Party;
 
 namespace gloomhavenlogic.Story
 {
@@ -16,6 +17,7 @@ namespace gloomhavenlogic.Story
         {
             Name = "";
             Cards = new List<StoryCard>();
+            Party = PartyController.Instance;
         }
         public StoryCardController(string name) : this()
         {
@@ -24,6 +26,7 @@ namespace gloomhavenlogic.Story
 
         public string Name { get; set; }
         public List<StoryCard> Cards { get; set; }
+        protected PartyController Party { get; set; }
 
         public void GenerateCards(string data_folder)
         {
@@ -139,8 +142,13 @@ namespace gloomhavenlogic.Story
 
             if (param == StoryRewardParameter.Achievement)
             {
-                var achievement = GetAchievementEnum(value_string);
-                return new StoryStepReward(new StoryReward(achievement), nextStep);
+                var glob_achievement = GetGlobalAchievementEnum(value_string);
+                var party_achievement = GetPartyAchievementEnum(value_string);
+
+                if (glob_achievement != GlobalAchievement.Undefined)
+                    return new StoryStepReward(new StoryReward(glob_achievement), nextStep);
+                else
+                    return new StoryStepReward(new StoryReward(party_achievement), nextStep);
             }
             else
             {
@@ -300,61 +308,71 @@ namespace gloomhavenlogic.Story
             return list;
         }
 
-        protected Achievement GetAchievementEnum(string label)
+        protected GlobalAchievement GetGlobalAchievementEnum(string label)
         {
             switch(label)
             {
                 case "The Drake Slain":
-                    return Achievement.TheDrakeSlain;
+                    return GlobalAchievement.TheDrakeSlain;
                 case "The Drake Aided":
-                    return Achievement.TheDrakeAided;
+                    return GlobalAchievement.TheDrakeAided;
                 case "The Voice Silenced":
-                    return Achievement.TheVoiceSilenced;
+                    return GlobalAchievement.TheVoiceSilenced;
                 case "The Voice Freed":
-                    return Achievement.TheVoiceFreed;
+                    return GlobalAchievement.TheVoiceFreed;
                 case "City Rule Militaristic":
-                    return Achievement.CityRuleMilitaristic;
+                    return GlobalAchievement.CityRuleMilitaristic;
                 case "City Rule Economic":
-                    return Achievement.CityRuleEconomic;
+                    return GlobalAchievement.CityRuleEconomic;
                 case "City Rule Demonic":
-                    return Achievement.CityRuleDemonic;
+                    return GlobalAchievement.CityRuleDemonic;
                 case "Artifact Found":
-                    return Achievement.ArtifactFound;
+                    return GlobalAchievement.ArtifactFound;
                 case "Artifact Recovered":
-                    return Achievement.ArtifactRecovered;
+                    return GlobalAchievement.ArtifactRecovered;
                 case "Artifact Cleansed":
-                    return Achievement.ArtifactCleansed;
+                    return GlobalAchievement.ArtifactCleansed;
                 case "Artifact Lost":
-                    return Achievement.ArtifactLost;
+                    return GlobalAchievement.ArtifactLost;
                 case "The Merchant Flees":
-                    return Achievement.TheMerchantFlees;
+                    return GlobalAchievement.TheMerchantFlees;
                 case "The Dead Invade":
-                    return Achievement.TheDeadInvade;
+                    return GlobalAchievement.TheDeadInvade;
                 case "The Power Of Enhancement":
-                    return Achievement.ThePowerOfEnhancement;
+                    return GlobalAchievement.ThePowerOfEnhancement;
                 case "Water Breathing":
-                    return Achievement.WaterBreathing;
+                    return GlobalAchievement.WaterBreathing;
                 case "The Rift Neutralized":
-                    return Achievement.TheRiftNeutralized;
+                    return GlobalAchievement.TheRiftNeutralized;
                 case "The Edge Of Darkness":
-                    return Achievement.TheEdgeOfDarkness;
+                    return GlobalAchievement.TheEdgeOfDarkness;
                 case "End Of The Invasion":
-                    return Achievement.EndOfTheInvasion;
+                    return GlobalAchievement.EndOfTheInvasion;
                 case "End Of Corruption":
-                    return Achievement.EndOfCorruption;
+                    return GlobalAchievement.EndOfCorruption;
                 case "End Of Gloom":
-                    return Achievement.EndOfGloom;
+                    return GlobalAchievement.EndOfGloom;
                 case "Ancient Technology":
-                    return Achievement.AncientTechnology;
+                    return GlobalAchievement.AncientTechnology;
                 case "The Annihilation Of The Order":
-                    return Achievement.TheAnnihilationOfTheOrder;
-                case "A Map To Treasure":
-                    return Achievement.AMapToTreasure;
-                case "Bad Business":
-                    return Achievement.BadBusiness;
+                    return GlobalAchievement.TheAnnihilationOfTheOrder;
                 default:
                     Debug.Fail("Unexpected Achievement");
-                    return Achievement.Undefined;
+                    return GlobalAchievement.Undefined;
+            }
+        }
+
+        protected PartyAchievement GetPartyAchievementEnum(string label)
+        {
+            switch (label)
+            {
+                case "A Map To Treasure":
+                    return PartyAchievement.AMapToTreasure;
+                case "Bad Business":
+                    return PartyAchievement.BadBusiness;
+                default:
+                    Debug.Fail("Unexpected Achievement");
+                    return PartyAchievement.Undefined;
             }
         }
     }

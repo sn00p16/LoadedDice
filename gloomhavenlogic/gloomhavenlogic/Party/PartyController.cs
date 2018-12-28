@@ -9,7 +9,23 @@ namespace gloomhavenlogic.Party
     {
         #region Constructors
 
-        public PartyController() { }
+        public PartyController()
+        {
+            Name = "";
+            Reputation = 0;
+
+            Characters = new List<Character>();
+            Achievements = new Dictionary<PartyAchievement, bool>();
+            for(var i = PartyAchievement.Undefined + 1; i < PartyAchievement.Max; ++i)
+                Achievements[i] = false;
+
+        }
+
+        #endregion
+
+        #region Constants
+
+        private const int MaxReputation = 20;
 
         #endregion
 
@@ -17,8 +33,8 @@ namespace gloomhavenlogic.Party
 
         public string Name { get; private set; }
         public List<Character> Characters { get; private set; }
-
-        public List<string> Achievements { get; private set; }
+        
+        public Dictionary<PartyAchievement, bool> Achievements { get; private set; }
 
         public int Reputation { get; private set; }
         public int Level { get { return GetPartyLevel(); } }
@@ -39,7 +55,7 @@ namespace gloomhavenlogic.Party
         {
             get
             {
-                int min = 999999999;
+                int min = int.MaxValue;
                 foreach (var character in Characters)
                     if (character.Gold < min)
                         min = character.Gold;
@@ -58,6 +74,33 @@ namespace gloomhavenlogic.Party
 
                 return list;
             }
+        }
+
+        #endregion
+
+        #region Public Methods
+
+        public void AddReputation(int value)
+        {
+            Reputation += value;
+
+            // Bounds limit
+            if (Reputation > MaxReputation)
+                Reputation = MaxReputation;
+            else if (Reputation < -MaxReputation)
+                Reputation = -MaxReputation;
+        }
+
+        public void AddAchievement(PartyAchievement achievement)
+        {
+            if (achievement != PartyAchievement.Undefined)
+                Achievements[achievement] = true;
+        }
+
+        public void RemoveAchievement(PartyAchievement achievement)
+        {
+            if (achievement != PartyAchievement.Undefined)
+                Achievements[achievement] = false;
         }
 
         #endregion
