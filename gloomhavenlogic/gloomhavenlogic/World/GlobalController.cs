@@ -8,15 +8,25 @@ namespace gloomhavenlogic.World
     {
         #region Constructors
 
-        public GlobalController() { }
+        public GlobalController()
+        {
+            Achievements = new Dictionary<GlobalAchievement, bool>();
+            for (var i = GlobalAchievement.Undefined + 1; i < GlobalAchievement.Max; ++i)
+                Achievements[i] = false;
+            Locations = new List<Location>();
+
+            ProsperityPoints = 0;
+            AncientTechnologyLevel = 0;
+        }
 
         #endregion
 
         #region Public Fields
 
-        public int ProsperityLevel { get; private set; }
-        public List<GlobalAchievement> Achievements { get; private set; }
+        public int ProsperityLevel { get { return GetProsperityLevel(); } }
         public List<Location> GetAvailableLocations { get { return Locations.FindAll(l => l.State == LocationState.Revealed); } }
+        public Dictionary<GlobalAchievement, bool> Achievements { get; private set; }
+        public int AncientTechnologyLevel { get; private set; }
 
         #endregion
 
@@ -33,8 +43,6 @@ namespace gloomhavenlogic.World
         {
             ProsperityPoints += prosperity;
             if (ProsperityPoints < 0) ProsperityPoints = 0;
-
-            RefreshProsperityLevel();
         }
 
         public void RevealLocations(List<int> locations)
@@ -52,13 +60,30 @@ namespace gloomhavenlogic.World
             }
         }
 
+        public void AddAchievement(GlobalAchievement achievement)
+        {
+            if (achievement == GlobalAchievement.Undefined)
+                return;
+
+            Achievements[achievement] = true;
+        }
+
+        public void RemoveAchievement(GlobalAchievement achievement)
+        {
+            if (achievement == GlobalAchievement.Undefined)
+                return;
+
+            Achievements[achievement] = false;
+        }
+
         #endregion
 
         #region Protected Methods
 
-        private void RefreshProsperityLevel()
+        private int GetProsperityLevel()
         {
             // Calculate the level based on thresholds
+            return 1;
         }
 
         #endregion
