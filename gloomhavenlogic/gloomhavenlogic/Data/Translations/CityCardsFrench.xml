@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Translations>
+  <Translation key = "CITYCARD_01_STORY">
+    <Paragraph>
+      <Sentence>You decide to unwind at the Sleeping Lion, but just as you are starting to relax, a bear of a man crashes into your table, scattering your drinks across the floor.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>Towering over him is a massive Inox.</Sentence>
+      <Sentence>"What did you say about my horns?" the Inox shouts.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>The man stands up and brushes shards of glass from his tunic.</Sentence>
+      <Sentence>"I said the sight of them makes me want to vomit!"</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>The Inox roars and charges headlong into the man, crashing through more tables in the process.</Sentence>
+      <Sentence>At this, the entire tavern erupts into violence.</Sentence>
+      <Sentence>After all, when a man is deep into his drink, the last thing you want to do is knock that drink over.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key = "CITYCARD_01_OPTION_00">
+    <Paragraph>
+      <Sentence>Option A: Join the fray!</Sentence>
+      <Sentence>These insults will not go unanswered!</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key = "CITYCARD_01_OPTION_00_STORY">
+    <Paragraph>
+      <Sentence>Nothing like busting some drunken skills to lift one's spirits.</Sentence>
+      <Sentence>It turns out to be a great way to unwind.</Sentence>
+      <Sentence>Unfortunately, the proprietor of the Sleeping Lion doesn't exactly see it that way, and he sullenly asks for compensation for the damage you caused.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key = "CITYCARD_01_OPTION_00_OPTION_00">
+    <Paragraph>
+      <Sentence>LOSE_5_GOLD_EACH</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key = "CITYCARD_01_OPTION_00_OPTION_01">
+    <Paragraph>
+      <Sentence>LOSE_1_REPUTATION</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key = "CITYCARD_01_OPTION_01">
+    <Paragraph>
+      <Sentence>Option B: Do your best to stop the fighting.</Sentence>
+      <Sentence>This is a respectable establishment.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key = "CITYCARD_01_OPTION_01_STORY">
+    <Paragraph>
+      <Sentence>After restraining the enraged Inox and offering to replace the drinks of a few of the more belligerent patrons, you calm the place down a bit.</Sentence>
+      <Sentence>Some of the non-human patrons are understandably on edge, but the proprietor thanks you for your efforts and reimburses you for the drinks.</Sentence>
+    </Paragraph>
+  </Translation>
+</Translations>

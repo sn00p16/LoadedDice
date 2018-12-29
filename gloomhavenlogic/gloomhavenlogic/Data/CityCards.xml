@@ -7,11 +7,11 @@
 				<Story text = "CARD_01_OPT_00_STORY"></Story>
 				<Reward param = "ExperienceEach" value = "10"></Reward>
 				<Choice options = "2">
-					<Option text = "Lose 5 gold each">
+					<Option text = "CITYCARD_01_OPTION_00_OPTION_00">
 						<Reward param = "GoldEach" value = "-5"></Reward>
 						<CardTreatment param = "ReturnToDeck"></CardTreatment>
 					</Option>
-					<Option text = "Lose 1 reputation">
+					<Option text = "CITYCARD_01_OPTION_00_OPTION_01">
 						<Reward param = "Reputation" value = "-1"></Reward>
 						<CardTreatment param = "ReturnToDeck"></CardTreatment>
 					</Option>
