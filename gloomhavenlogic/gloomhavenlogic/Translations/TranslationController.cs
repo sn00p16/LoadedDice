@@ -43,10 +43,17 @@ namespace gloomhavenlogic.Translations
         {
             var latest_translation = label;
 
-            while (Translations[CurrentLanguage].ContainsKey(latest_translation))
+            // Get the translation from the language, or from the default language
+            if (Translations[CurrentLanguage].ContainsKey(latest_translation))
                 latest_translation = Translations[CurrentLanguage][latest_translation];
+            else if (Translations[DefaultLanguage].ContainsKey(latest_translation))
+                latest_translation = Translations[DefaultLanguage][latest_translation];
 
-            return latest_translation;
+            // If we've found our way to the end, return the translation
+            if (latest_translation == label)
+                return latest_translation;
+
+            return GetTranslation(latest_translation);
         }
 
         private void LoadTranslations()
