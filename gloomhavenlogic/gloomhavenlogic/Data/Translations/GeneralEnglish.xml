@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Translations>
+  <Translation key = "LOSE_5_GOLD_EACH">
+    <Paragraph>
+      <Sentence>Lose 5 gold each</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key = "LOSE_1_REPUTATION">
+    <Paragraph>
+      <Sentence>Lose 1 reputation</Sentence>
+    </Paragraph>
+  </Translation>
+</Translations>

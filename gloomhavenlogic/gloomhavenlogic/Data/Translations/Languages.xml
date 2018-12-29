@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Languages>
+  <Language lang = "English" default = "true">
+    <File filename = "GeneralEnglish.xml"></File>
+    <File filename = "CityCardsEnglish.xml"></File>
+  </Language>
+  <Language lang = "French">
+    <File filename = "GeneralFrench.xml"></File>
+    <File filename = "CityCardsFrench.xml"></File>
+  </Language>
+</Languages>
