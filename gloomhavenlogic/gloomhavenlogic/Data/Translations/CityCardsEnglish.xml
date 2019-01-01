@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Translations>
-  <Translation key = "CITYCARD_01_STORY">
+  <Translation key="CITYCARD_01_STORY">
     <Paragraph>
       <Sentence>You decide to unwind at the Sleeping Lion, but just as you are starting to relax, a bear of a man crashes into your table, scattering your drinks across the floor.</Sentence>
     </Paragraph>
@@ -18,39 +18,1764 @@
       <Sentence>After all, when a man is deep into his drink, the last thing you want to do is knock that drink over.</Sentence>
     </Paragraph>
   </Translation>
-  <Translation key = "CITYCARD_01_OPTION_00">
+  <Translation key="CITYCARD_01_OPT_00">
     <Paragraph>
-      <Sentence>Option A: Join the fray!</Sentence>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Join the fray!</Sentence>
       <Sentence>These insults will not go unanswered!</Sentence>
     </Paragraph>
   </Translation>
-  <Translation key = "CITYCARD_01_OPTION_00_STORY">
+  <Translation key="CITYCARD_01_OPT_00_STORY">
     <Paragraph>
       <Sentence>Nothing like busting some drunken skills to lift one's spirits.</Sentence>
       <Sentence>It turns out to be a great way to unwind.</Sentence>
       <Sentence>Unfortunately, the proprietor of the Sleeping Lion doesn't exactly see it that way, and he sullenly asks for compensation for the damage you caused.</Sentence>
     </Paragraph>
   </Translation>
-  <Translation key = "CITYCARD_01_OPTION_00_OPTION_00">
+  <Translation key="CITYCARD_01_OPT_00_OPT_00">
     <Paragraph>
       <Sentence>LOSE_5_GOLD_EACH</Sentence>
     </Paragraph>
   </Translation>
-  <Translation key = "CITYCARD_01_OPTION_00_OPTION_01">
+  <Translation key="CITYCARD_01_OPT_00_OPT_01">
     <Paragraph>
       <Sentence>LOSE_1_REPUTATION</Sentence>
     </Paragraph>
   </Translation>
-  <Translation key = "CITYCARD_01_OPTION_01">
+  <Translation key="CITYCARD_01_OPT_01">
     <Paragraph>
-      <Sentence>Option B: Do your best to stop the fighting.</Sentence>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Do your best to stop the fighting.</Sentence>
       <Sentence>This is a respectable establishment.</Sentence>
     </Paragraph>
   </Translation>
-  <Translation key = "CITYCARD_01_OPTION_01_STORY">
+  <Translation key="CITYCARD_01_OPT_01_STORY">
     <Paragraph>
       <Sentence>After restraining the enraged Inox and offering to replace the drinks of a few of the more belligerent patrons, you calm the place down a bit.</Sentence>
       <Sentence>Some of the non-human patrons are understandably on edge, but the proprietor thanks you for your efforts and reimburses you for the drinks.</Sentence>
     </Paragraph>
   </Translation>
+  <Translation key="CITYCARD_02_STORY">
+    <Paragraph>
+      <Sentence>As the daylight fades, you find yourselves wandering through a half-crowded market street, browsing wares.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"Hey!</Sentence>
+      <Sentence>Over here!"</Sentence>
+      <Sentence>You turn in the direction of the voice to see a filthy Vermling gesturing from a dark alley.</Sentence>
+      <Sentence>"Yeah, you grim-looking chaps.</Sentence>
+      <Sentence>I have something you might be interested in."</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>The Vermling holds out a piece of metal covered in sludge.</Sentence>
+      <Sentence>"Found this in the sewer.</Sentence>
+      <Sentence>Writing on it I don't understand, but I know it's valuable.</Sentence>
+      <Sentence>You can have it for ten gold!"</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_02_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Pay for the thing.</Sentence>
+      <Sentence>You never know.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_02_OPT_00_CON_00_STORY">
+    <Paragraph>
+      <Sentence>You have over the gold and take hold of the piece of garbage.</Sentence>
+      <Sentence>Amidst troubling brown smears you see a lot of meaningless scratches likely made by rats and bugs.</Sentence>
+      <Sentence>Oh well.</Sentence>
+      <Sentence>Sometimes the long shot doesn't pay off.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_02_OPT_00_CON_01_STORY">
+    <Paragraph>
+      <Sentence>"Bah!</Sentence>
+      <Sentence>You don't have enough.</Sentence>
+      <Sentence>Come back when you do!"</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_02_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Refuse to pay.</Sentence>
+      <Sentence>Never trust a Vermling.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_02_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>You laugh and gesture the Vermling away.</Sentence>
+      <Sentence>You can recognize a low-life swindler when you see one.</Sentence>
+      <Sentence>And that piece of garbage was just... foul.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_03_STORY">
+    <Paragraph>
+      <Sentence>As the daylight fades, you find yourselves wandering through a half-crowded market street, browsing wares.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"Hey!</Sentence>
+      <Sentence>Over here!"</Sentence>
+      <Sentence>You turn in the direction of the voice to see a filthy Vermling gesturing from a dark alley.</Sentence>
+      <Sentence>"Yeah, you grim-looking chaps.</Sentence>
+      <Sentence>I have something you might be interested in."</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>The Vermling holds out a piece of metal covered in sludge.</Sentence>
+      <Sentence>"Found this in the sewer.</Sentence>
+      <Sentence>Writing on it I don't understand, but I know it's valuable.</Sentence>
+      <Sentence>You can have it for ten gold!"</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_03_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Pay for the thing.</Sentence>
+      <Sentence>You never know.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_03_OPT_00_CON_00_STORY">
+    <Paragraph>
+      <Sentence>You hand over the gold and take hold of the metal.</Sentence>
+      <Sentence>You wipe off the grime and slop to discover a foreign contraption made of large gears and many moving parts.</Sentence>
+      <Sentence>If you can figure out what it is, this device might actually be of some worth.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_03_OPT_00_CON_01_STORY">
+    <Paragraph>
+      <Sentence>"Bah!</Sentence>
+      <Sentence>You don't have enough.</Sentence>
+      <Sentence>Come back when you do!"</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_03_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Refuse to pay.</Sentence>
+      <Sentence>Never trust a Vermling.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_03_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>You laugh and gesture the Vermling away.</Sentence>
+      <Sentence>You can recognize a low-life swindler when you see one.</Sentence>
+      <Sentence>And that piece of garbage was just... foul.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_04_STORY">
+    <Paragraph>
+      <Sentence>Having recently returned from your latest adventure, you are approached by a ratty-looking boy in tears.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"Please, sirs, could you please help me with my cat?</Sentence>
+      <Sentence>He went over there, and I'm afraid."</Sentence>
+      <Sentence>The boy points a dirty finger at a decrepit, abandoned building.</Sentence>
+      <Sentence>"I don't know what else to do."</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_04_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Find a cat?</Sentence>
+      <Sentence>You have more important things to do.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_04_OPT_00_STORY">
+    <Paragraph>
+      <Sentence>You shake your head and direct the boy to go find his mother.</Sentence>
+      <Sentence>With any luck she will knock some sense into him so that he stops troubling strangers with such trivial matters.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_04_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Reassure the boy and go find the cat.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_04_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>You approach the foreboding house full of heroic bravado.</Sentence>
+      <Sentence>There's certainly nothing otherworldly about the structure, but its fallen beams and piles of rubble do make it difficult to look around.</Sentence>
+      <Sentence>By the time you find the cat hiding under a burned-out bed frame, you are utterly exhausted.</Sentence>
+      <Sentence>At least the boy is ecstatic his cat has been found.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_05_STORY">
+    <Paragraph>
+      <Sentence>After resting for the evening, you start out your day noticing a great number of prominent, commanding posters around the city.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>Reading one, you learn that the Sanctuary of the Great Oak is laying down the foundation for a new building on the east side of Gloomhaven.</Sentence>
+      <Sentence>Everyone is encouraged to come and help.</Sentence>
+      <Sentence>This could be an important community event.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_05_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Go help lay the foundation.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_05_OPT_00_STORY">
+    <Paragraph>
+      <Sentence>Amidst a great deal of revelry, you put all you have into laying the foundation of the sanctuary.</Sentence>
+      <Sentence>Surely much good will be done here healing the sick and wounded.</Sentence>
+      <Sentence>After all your exhaustive efforts, though, you might end up being their first patients.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_05_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Take the opportunity to steal some valuables in the area while people are distracted.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_05_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>You head to the prosperous east side of town, not to help lay down the foundation, but to steal some goods from shopkeepers too silly to lock up their wares during the festivities.</Sentence>
+      <Sentence>You make off with a good deal of money and the distracted guards are none the wiser.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_06_STORY">
+    <Paragraph>
+      <Sentence>You awake in the middle of the night to the sound of alarms ringing in the west.</Sentence>
+      <Sentence>You recognize them as the warning clangs of an attack on the wall.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>Any force bold enough to assault the defenses of Gloomhaven can't be good.</Sentence>
+      <Sentence>For a moment you are grateful for the prolific number of guards defending the city.</Sentence>
+      <Sentence>But still, there is always the possibility that the guards may not be enough.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_06_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Go aid in the defense of the city.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_06_OPT_00_STORY">
+    <Paragraph>
+      <Sentence>You rush toward the West Gate, eager to fight back the invaders.</Sentence>
+      <Sentence>As you approach, you see a mass of Vermlings climbing over the wall and attacking the guards with daggers and arrows.</Sentence>
+      <Sentence>You yell and charge into the battle.</Sentence>
+      <Sentence>It is a rough fight, but you emerge victorious, covered in fur and blood.</Sentence>
+      <Sentence>The citizens of Gloomhaven remain safe, and the town is free to grow and prosper.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_06_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>If the guards are distracted by an attacking force, now would be the perfect time to steal some valuables.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_06_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>The town erupts into chaos with panicked cries of "Vermlings!" - a perfect opportunity to collect some valuables.</Sentence>
+      <Sentence>Slinking around to an abandoned shop, you find a way in and pilfer the safe.</Sentence>
+      <Sentence>In the morning, the devastation from the assault is noticeable.</Sentence>
+      <Sentence>Downtrodden looks greet you as you pass, and you wonder if your presence was missed along the walls.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_07_STORY">
+    <Paragraph>
+      <Sentence>Occasionally your dealings in town lead you past the bustling docks.</Sentence>
+      <Sentence>All conversation gets drowned out by the constant din of loading and unloading cargo and crew.</Sentence>
+      <Sentence>This makes it all the more surprising when you hear a voice above the noise directed straight at you.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"Oi!</Sentence>
+      <Sentence>You with the hard looks and big arms!</Sentence>
+      <Sentence>I desperately need some help o'er here!</Sentence>
+      <Sentence>Spare a few minutes to help make sure I get out of port on time?</Sentence>
+      <Sentence>Otherwise I'll be stuck here until tomorrow!"</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_07_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Help the captain load his ship.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_07_OPT_00_STORY">
+    <Paragraph>
+      <Sentence>What was advertised as a few minutes turns out to be an hour or two as you lug large crates full of some foul-smelling liquid from a nearby warehouse into the hold of the ship.</Sentence>
+      <Sentence>At least the captain is relieved that he'll be able to set sail on time, though.</Sentence>
+      <Sentence>He gratefully pays you, but you can't help but think that such menial labor might be beneath you.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_07_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Move on with your business.</Sentence>
+      <Sentence>You don't have the time or inclination for such things.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_07_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>Unwilling to be bothered by such trivial matters, you continue on your way amidst curses from the ship's captain.</Sentence>
+      <Sentence>"Blast it all!</Sentence>
+      <Sentence>You'll get nowhere in life with that sort of attitude!"</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_08_STORY">
+    <Paragraph>
+      <Sentence>On a trip to the New Market, you see a curious sea chart prominently displayed in a Valrath merchant's stall.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"Ah, I see this interests you!" he says while holding it up, taking great care not to damage it.</Sentence>
+      <Sentence>"I've been told this map will lead you to a location of untold riches!</Sentence>
+      <Sentence>Wondrous beyond anything you have seen before!"</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>The Valrath gestures grandly with his free hand and his smile grows wide.</Sentence>
+      <Sentence>"How can you say no to this?</Sentence>
+      <Sentence>Just make me an offer."</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_08_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>The map does look valuable.</Sentence>
+      <Sentence>Decide to bargain for it.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_08_OPT_00_CON_00_STORY">
+    <Paragraph>
+      <Sentence>After some amount of haggling back and forth, you settle on a price and pay for the map.</Sentence>
+      <Sentence>You recognize some of the landmarks and should be able to find this place of "untold treasure" by hiring a ship.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_08_OPT_00_CON_01_STORY">
+    <Paragraph>
+      <Sentence>Despite your valiant efforts, you cannot get the merchant to lower his price to something you can afford.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_08_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Refuse to deal with the merchant.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_08_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>Wary of the merchant's overly exuberant nature, you politely decline his offer and go about your intended business.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_09_STORY">
+    <Paragraph>
+      <Sentence>After a night of heavy drinking, you get turned around while navigating the back alleys and find yourself standing before a collapsed section of bricked road that leads down into an underground tunnel.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>Fueled by curiosity and a bit of liquid courage, you descend in search of adventure.</Sentence>
+      <Sentence>Stumbling around in the vast network of tunnels proves rather fruitless, however, until a well-concelaed passage leads you to a long-forgotten stash of weaponry and dried food.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>The stuff could fetch a decent price at the Sunken Market, or you could turn it over to the city guard, which is always in need of arms and rations.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_09_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Sell the goods.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_09_OPT_00_STORY">
+    <Paragraph>
+      <Sentence>Using a few less-than-savory contacts, you're able to unload the goods for a respectable price.</Sentence>
+      <Sentence>Who knew drunken strolls could prove so profitable?</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_09_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Donate the goods to the city.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_09_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>You sleep off the previous night's revelries and approach the Captain of the Guard.</Sentence>
+      <Sentence>"This is wonderful news!</Sentence>
+      <Sentence>With attacks on the city becoming ever more frequent, our blacksmiths are having trouble keeping up with our demands.</Sentence>
+      <Sentence>And the food should help considerably if we ever find ourselves under siege.</Sentence>
+      <Sentence>This is truly a big help to the city."</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_10_STORY">
+    <Paragraph>
+      <Sentence>Relaxing for the evening at the Sleeping Lion, a shifty-looking man approaches you, hand outstretched.</Sentence>
+      <Sentence>In it are a pair of pale dice with crude marks scratched on them.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_10_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Play a game with the man.</Sentence>
+      <Sentence>It may prove to be a good time.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_10_OPT_00_CON_00_STORY">
+    <Paragraph>
+      <Sentence>You get into the game, but after a few rounds, your enthusiasm wanes as the man displays a streak of luck that can only be described as "uncanny".</Sentence>
+      <Sentence>You leave the table empty-handed.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_10_OPT_00_CON_01_STORY">
+    <Paragraph>
+      <Sentence>The man clearly intends to cheat you out of your hard-earned money.</Sentence>
+      <Sentence>He's not the only one capable of cheating, however.</Sentence>
+      <Sentence>After a few rounds, you wipe that smile right off his face.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_10_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Refuse the game of dice.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_10_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>You laugh and wave away the man's offer.</Sentence>
+      <Sentence>You get all the excitement you need fighting toe-to-toe against vicious monsters.</Sentence>
+      <Sentence>In combat, what matters most is planning and tactics, which are far more interesting than some random roll of the dice.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_11_STORY">
+    <Paragraph>
+      <Sentence>"Please, something of interest, sirs."</Sentence>
+      <Sentence>The words come through in chitters and hisses.</Sentence>
+      <Sentence>You turn your head toward an alley in the Ward of Scales to see a Harrower dressed in crude robes and a mask.</Sentence>
+      <Sentence>It holds out a piece of parchment.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"Something for sirs.</Sentence>
+      <Sentence>Very powerful.</Sentence>
+      <Sentence>Just five gold."</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>You can see the parchment has the designs for something on it, but still - you recognize this Harrower.</Sentence>
+      <Sentence>It is known for trading in disreputable good.</Sentence>
+      <Sentence>You can't know where that parchment came from, and if anyone saw you dealing with this creature... well, they might get the wrong idea.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_11_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Make a deal with the Harrower.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_11_OPT_00_CON_00_STORY">
+    <Paragraph>
+      <Sentence>Intrigued by the parchment, you quickly make a decision to buy it off the Harrower.</Sentence>
+      <Sentence>The exchange is fast, and then you move on your way, hoping no one saw you.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_11_OPT_00_CON_01_STORY">
+    <Paragraph>
+      <Sentence>You try to pay the Harrower less than it asks for, which only manages to anger it.</Sentence>
+      <Sentence>It hisses loudly and shuns you.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_11_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Shake your head and walk away.</Sentence>
+      <Sentence>Best not to take chances in such situations.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_11_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>You loudly refuse the Harrower's offer and continue about your business.</Sentence>
+      <Sentence>That thing should know better than to stray from the Sinking Market.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_12_STORY">
+    <Paragraph>
+      <Sentence>A great revelry is underway at the New Market when you arrive to purchase supplies.</Sentence>
+      <Sentence>Investigating further, you discover the town is in the midst of a pie-eating contest.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>A group of large sailors sits triumphantly at a long table on a makeshift stage, crumbs and bits of fruit scatter all around.</Sentence>
+      <Sentence>A man in the center stands and addresses the crowd.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"Can no one best our pie-eating prowess?</Sentence>
+      <Sentence>Step up and test your mettle!"</Sentence>
+      <Sentence>With nothing better to do, you head up to the stage.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>The contest goes well for a while as you match the others pie-for-pie, but soon your eating starts to slow, and the sailors are still going strong.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_12_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Yield to the pie and admit defeat.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_12_OPT_00_STORY">
+    <Paragraph>
+      <Sentence>You put down your utensils and yield to the sailors.</Sentence>
+      <Sentence>They roar with pride and slap you on the back.</Sentence>
+      <Sentence>Unfortunately, the sudden jolt doesn't sit well with your stomach, and soon all the pies you ate are coming back up, much to the disgust of the gathered crowd.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_12_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Power through the pain.</Sentence>
+      <Sentence>You will not be bested!</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_12_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>You emit a primal yell and continue eating.</Sentence>
+      <Sentence>Pie after pie, your willpower cannot be broken, and eventually the sailors are forced to concede.</Sentence>
+      <Sentence>However, you cannot even stand to shake your foes' hands.</Sentence>
+      <Sentence>Your legs are boneless, and your stomach feels worse than it has ever felt before.</Sentence>
+      <Sentence>You have earned glory and prize money, but all you want to do it lie down and wait for the horror to pass.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_13_STORY">
+    <Paragraph>
+      <Sentence>You are walking across the Silent Bridge, headed toward the Sleeping Lion to get a quick meal, when you see a Quatryl standing in front of a small cart laden with plates of food and curious contraptions.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"Come try the delicacies of the East!" the Quatryl barks.</Sentence>
+      <Sentence>"Food enhanced with science!</Sentence>
+      <Sentence>Flavors beyond your wildest imagination!"</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_13_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Stop and try the food.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_13_OPT_00_STORY">
+    <Paragraph>
+      <Sentence>You decide to indulge in the unknown and see what the Quatryl is offering.</Sentence>
+      <Sentence>He looks very pleased at your approach and instructs you to inhale a tube of vapors, then take a bite from a bowl full of tiny golden spheres.</Sentence>
+      <Sentence>As the spheres melt in your mouth, the taste mixes with the aroma of the vapors to create a wonderful experience.</Sentence>
+      <Sentence>You pay what you can, but the Quatryl seems solely focused on how much you enjoyed the meal.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_13_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Continue on your way to a less adventurous meal.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_13_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>After a quick glance at the cart, you are not even sure how you would go about eating most of the food.</Sentence>
+      <Sentence>Best to play it safe in these situations and stick to what you know will fill you up cheaply.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_14_STORY">
+    <Paragraph>
+      <Sentence>You hear screams from the south as your approach the docks and see a group of women running toward you in a panic.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"An invasion!"</Sentence>
+      <Sentence>They yell as they race by you, nearly knocking you over.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>You hurry to the docks and find a crowd of workers on edge, armed with makeshift weapons and circling one particular pier.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>Standing at the far end of the wooden planks is a group of Lurkers - terrifying crab-like monsters as big as an Inox and equally ferocious.</Sentence>
+      <Sentence>Except these Lurkers don't appear to be hostile.</Sentence>
+      <Sentence>They are simply standing on the dock, clacking their claws in a strange rhythm.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_14_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Raise arms and fight the Lurkers back into the sea.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_14_OPT_00_STORY">
+    <Paragraph>
+      <Sentence>The crowd parts as you approach the dock with weapons drawn.</Sentence>
+      <Sentence>You step onto the soft wood and the Lurkers turn toward you and stop clacking.</Sentence>
+      <Sentence>They all hiss and brandish their claws in aggression.</Sentence>
+      <Sentence>You charge forward and meet the threat head-on, hacking away at their carapaces until they scuttle off the dock and back into the water.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_14_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Approach the Lurkers cautiously and attempt to communicate with them.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_14_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>The crowd parts as you approach the dock with both confidence and care.</Sentence>
+      <Sentence>The Lurkers notice your approach and continue to clack in your direction.</Sentence>
+      <Sentence>You call out to them and ask why they are here, but all you get in response is a change in the tempo of their clacking.</Sentence>
+      <Sentence>When you express confusion, they clack again in frustration and scuttle back into the ocean.</Sentence>
+      <Sentence>The crowd is very impressed that you managed to ward off the creatures without using force.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_15_STORY">
+    <Paragraph>
+      <Sentence>It was a truly marvelous night, full of alcohol and fuzzy memories.</Sentence>
+      <Sentence>You are heading back to your rooms in high spirits when you take a wrong turn into an alley and trip over a mutilated corpse.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"What's all this then?"</Sentence>
+      <Sentence>You look up to see a city guard walk into the alley, annoyed by all the noise you were making in your revelry.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>Before you can react, he draws his sword.</Sentence>
+      <Sentence>"You... what did you do?"</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>You look and see that, due to the fall, your clothes are now covered in blood.</Sentence>
+      <Sentence>The guard clearly thinks you are responsible for the man's death.</Sentence>
+      <Sentence>This night just took a serious turn for the worse.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_15_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Do your best to try and explain that the man was like this when you found him.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_15_OPT_00_CON_00_STORY">
+    <Paragraph>
+      <Sentence>You sober up pretty quickly and explain the situation.</Sentence>
+      <Sentence>Luckily, the guard is familiar with your reputation and believes your story.</Sentence>
+      <Sentence>After a few more questions, he allows you to leave and clean up.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_15_OPT_00_CON_01_STORY">
+    <Paragraph>
+      <Sentence>Attempts to explain yourself just seem to make the situation worse.</Sentence>
+      <Sentence>More guards show up and everyone eyes you suspiciously.</Sentence>
+      <Sentence>Luckily your weapons don't match the man's wounds, and the guards let you go, but they do so with a mistrustful glare.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_15_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Panic and kill the guard, then dispose of both corpses.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_15_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>THe unlucky guard falls to your blade before he is able ot call for help.</Sentence>
+      <Sentence>If the bodies are found, it could cause a lot of trouble for you.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_15_OPT_01_CON_00_STORY">
+    <Paragraph>
+      <Sentence>You go looking for someone who can properly dispose of the mess.</Sentence>
+      <Sentence>It's not cheap, but one of your contacts promises to make the bodies disappear.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_15_OPT_01_CON_01_STORY">
+    <Paragraph>
+      <Sentence>Knowing you don't have enough to get professional help, you spend all night cleaning up the mess before anyone discovers it.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_16_STORY">
+    <Paragraph>
+      <Sentence>"Stop struggling!</Sentence>
+      <Sentence>You're coming with me and there's nothing you can do about it!"</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>Ahead of you in the street, you see a pair of guards scuffling with a young boy dressed in rags.</Sentence>
+      <Sentence>"You snatch purses, you go to the Ghost Fortress.</Sentence>
+      <Sentence>No way around that."</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"But my family is starving." the boy cries.</Sentence>
+      <Sentence>You recognize his voice from some of your dealings in the Sunken Market.</Sentence>
+      <Sentence>He's given you helpful tips for mercenary work on a number of occasions.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_16_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Intervene on the boy's behalf.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_16_OPT_00_CON_00_STORY">
+    <Paragraph>
+      <Sentence>You entreat the guards to let the boy go, but they are unmoved.</Sentence>
+      <Sentence>With further pressing, they agree to do so only if you pay his criminal fine.</Sentence>
+      <Sentence>The guards cuff the boy's ear and set him free.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_16_OPT_00_CON_01_STORY">
+    <Paragraph>
+      <Sentence>You entreat the guards to let the boy go, but they are unmoved.</Sentence>
+      <Sentence>It seems you may be able to grease their palms a bit, but, unfortunately, you do not have enough money to sway their minds.</Sentence>
+      <Sentence>The boy is hauled off to the Ghost Fortress.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_16_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Let the guards haul the boy away to prison.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_16_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>There are repercussions to getting caught, and like the guard said, sometimes there's no way out of it.</Sentence>
+      <Sentence>You owe the boy nothing, and so let the guards take him away.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_17_STORY">
+    <Paragraph>
+      <Sentence>Returning to Gloomhaven with your latest haul of treasure, you approach the market in search of a good trade.</Sentence>
+      <Sentence>Unfortunately, there are only a few visible stands around that are not yet packing up for the day.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>A roved Savvas catches your eye.</Sentence>
+      <Sentence>It has a few strange artifacts on display, but you approach with no great expectation, hoping your goods will fetch a decent price.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>The Savvas silently nods as you approach.</Sentence>
+      <Sentence>It picks through your haul and lifts up a single item, holding out a small bag for you in exchange.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>Pouring out the bag's contents, a single rectangular black-and-white coin lands in your palm.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_17_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Demand a different payment.</Sentence>
+      <Sentence>The single coin is an insult.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_17_OPT_00_STORY">
+    <Paragraph>
+      <Sentence>You slam the strange coin back down onto the Savvas' display in anger.</Sentence>
+      <Sentence>It reaches out to grab the coin, but you take hold of its arm and demand a proper payment.</Sentence>
+      <Sentence>Wordlessly, it looks at you with disdain and throws a handful of gold in your face.</Sentence>
+      <Sentence>You shield your eyes and move to draw your weapon, but when you look around, the Savvas and its goods are no longer to be found.</Sentence>
+      <Sentence>You sullenly gather the coins it threw and move on.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_17_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Accept the strange coin and research it for hidden value.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_17_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>You calmly assess that the coin may possess much more value than it appears to have.</Sentence>
+      <Sentence>You head to the University and spend hours looking through old records to no avail.</Sentence>
+      <Sentence>You end the day in a tavern, easing the frustration with a drink and loud laments about the coin.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"Those markings are very interesting."</Sentence>
+      <Sentence>You look up to see an Aesther standing over you.</Sentence>
+      <Sentence>"They describe a special meeting place.</Sentence>
+      <Sentence>I can show you where."</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_18_STORY">
+    <Paragraph>
+      <Sentence>You are attending to business in the Sinking Market when a frail white-haired woman approaches you and grabs you by the arm.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"Oh my, don't you lot look strong." she says.</Sentence>
+      <Sentence>"Could you possibly assist me with a small problem I am having in my cellar?"</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>Her eyes grow narrow.</Sentence>
+      <Sentence>"Rats!</Sentence>
+      <Sentence>So many rats!</Sentence>
+      <Sentence>I don't know where they're coming from, but they are a right nuisance.</Sentence>
+      <Sentence>Ruined three jars of preserves just yesterday!"</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>She tugs weakly at your sleeve.</Sentence>
+      <Sentence>"Please, can you help me?"</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_18_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Decline to help the old woman.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_18_OPT_00_STORY">
+    <Paragraph>
+      <Sentence>You pull your arm away from her filthy grasp and step away, making apologies for being too busy.</Sentence>
+      <Sentence>Your excuses lack the proper tact, however, and soon the woman is bawling in the street, lamenting that no one will help her and how the rats will kill her in her sleep, then feast on her corpse.</Sentence>
+      <Sentence>The whole speech is very graphic, and passersby begin to give you odd looks, wondering what you could have done to upset the poor woman so intensely.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_18_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Agree to help with the rat infestation.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_18_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>You smile broadly and ask the woman to lead you to her house.</Sentence>
+      <Sentence>It is a ramshackle dwelling half sunk into the muddy foundation.</Sentence>
+      <Sentence>And inside there are certainly a lot of rats.</Sentence>
+      <Sentence>You kill as many as you can, but in her cellar you find a large hole leading into a section of sewer that recently collapsed, leaving the pests with nowhere else to go.</Sentence>
+      <Sentence>The woman thanks you for at least helping her to be able to sleep tonight and hands you a few coins.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_19_STORY">
+    <Paragraph>
+      <Sentence>A curious invitation is slipped under your door in the early morning.</Sentence>
+      <Sentence>It is for a wedding ceremony between the children of two wealthy Gloomhaven merchants.</Sentence>
+      <Sentence>Your exploits seem to have placed you in their good graces, and so they would like you to join them on this special occasion, provided you don't show up in blood-soaked armor.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>And for the love of the Great Oak, bring a gift.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_19_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Attend the wedding with an expensive gift.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_19_OPT_00_CON_00_STORY">
+    <Paragraph>
+      <Sentence>You head to the New Market and find a magnificent vase to bring as a gift.</Sentence>
+      <Sentence>When the father of the bride sees it, he declares it the most wonderful piece he's ever encountered.</Sentence>
+      <Sentence>You are the talk of the town.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_19_OPT_00_CON_01_STORY">
+    <Paragraph>
+      <Sentence>You bring a very expensive vase as a gift, but you can't seem to catch the father of the bride's eye to present it at the right time.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_19_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Attend the wedding and bring a mundane gift.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_19_OPT_01_CON_00_STORY">
+    <Paragraph>
+      <Sentence>You pick up an unremarkable set of silverware on the way to the event.</Sentence>
+      <Sentence>When you arrive, the father of the bride casts a scournful look your way and begins whispering to those around him.</Sentence>
+      <Sentence>Maybe you received the invitation by mistake.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_19_OPT_01_CON_01_STORY">
+    <Paragraph>
+      <Sentence>You are one guest among many, and everyone is having too good of a time to notice your poor choice in gifts.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_20_STORY">
+    <Paragraph>
+      <Sentence>You are relaxing at the Sleeping Lion when an immaculately dressed man approaches your table, a fake smile plastered to his face.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"Ah, you must be the mercenaries everyone is talking about, yes?</Sentence>
+      <Sentence>My name is Lord Greymane and I have a delicate matter to discuss.</Sentence>
+      <Sentence>May I sit?"</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>You gesture to a chair and he sits with a faint grimace.</Sentence>
+      <Sentence>"I am transporting some valuable goods this evening from one of my warehouses, and I have reason to believe that some of the less desirable elements of this city wish to steal from me.</Sentence>
+      <Sentence>I would like to hire you to help guard the undertaking."</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_20_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Agree to guard the goods.</Sentence>
+      <Sentence>It should be easy money.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_20_OPT_00_CON_00_STORY">
+    <Paragraph>
+      <Sentence>You head to the warehouse and watch in silence as a number of heavy crates are loaded onto a cart.</Sentence>
+      <Sentence>You then escort the cart to the West Gate.</Sentence>
+      <Sentence>No thefts are attempted, and you are paid well.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_20_OPT_00_CON_01_STORY">
+    <Paragraph>
+      <Sentence>You head to the warehouse and are immediately set upon by a group of thieves.</Sentence>
+      <Sentence>However, they prove no match for your expertise and are quickly dispatched.</Sentence>
+      <Sentence>Greymane thanks you.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_20_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Politely decline.</Sentence>
+      <Sentence>You hve much better things to do tonight.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_20_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>This is your night off, and you are going to spend it drinking, not guarding some snobby "lord".</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>In the morning, you hear news that a shipment of rare minerals bound for the capital was stolen in the night.</Sentence>
+      <Sentence>People are calling it a huge blow to the economy of the town.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_21_STORY">
+    <Paragraph>
+      <Sentence>"I've been told you are the group to talk to if you want to get something done around here."</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>You look up from your table at the Sleeping Lion to see a rustic man in leather armor standing in front of you.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>This tavern may as well be your office, due to the number of people coming through the doors looking for your help.</Sentence>
+      <Sentence>You nod at the man, and he makes his request.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"My brother went out hunting in the Corpsewood two days ago and hasn't returned since.</Sentence>
+      <Sentence>I fear the worst.</Sentence>
+      <Sentence>If you are traveling in that direction, I hope you wouldn't mind keeping an eye out for him."</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_21_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Demand payment up front before agreeing to look for the man's brother.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_21_OPT_00_CON_00_STORY">
+    <Paragraph>
+      <Sentence>"What?</Sentence>
+      <Sentence>I... Oh, very well," the man stutters.</Sentence>
+      <Sentence>"Since I trust you to keep your word, I'll give you a little money for your trouble."</Sentence>
+      <Sentence>The man desribes his brother and hands you a small coin pouch.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_21_OPT_00_CON_01_STORY">
+    <Paragraph>
+      <Sentence>The man puffs up in indignation, letting you know he is insulted by your behavior.</Sentence>
+      <Sentence>He storms out of the tavern in a rage.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_21_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Agree to help the man in his search.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_21_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>The man thanks you profusely and give a detailed description of his brother.</Sentence>
+      <Sentence>"If you find him, no matter the condition, please let me know right away."</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_22_STORY">
+    <Paragraph>
+      <Sentence>You decide to head to the Brown Door for the evening to enjoy a Quatryl concert.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>Corruption and crime run rampant in the bar, but the music is unmatched in all of Gloomhaven.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>You are enjoying yourself immensely when you catch a glimpse of a man in a dark, tattered robe near the back of the room.</Sentence>
+      <Sentence>He appears to be handing vials full of red liquid to a second man.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_22_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Further investigate the exchange between the men.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_22_OPT_00_STORY">
+    <Paragraph>
+      <Sentence>You subtly move in the direction of the men, monitoring their actions with your peripheral vision.</Sentence>
+      <Sentence>You recognize the dark robes from the run-ins you have had with cultists in the area, and as you get closer, you become convinced that the vials being traded contain blood.</Sentence>
+      <Sentence>You grab the men and cause a huge amount of commotion as you fight to drag them outside and foil their dealings.</Sentence>
+      <Sentence>You are able to hand them off to the proper authorities, but it may be a while before you are allowed back in the Brown Door.</Sentence>
+      <Sentence>The concert was ruined.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_22_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Leave the criminal element alone and continue enjoying the show.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_22_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>The music is too good to be interrupted.</Sentence>
+      <Sentence>You ignore the men in the back and simply have a great time.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_23_STORY">
+    <Paragraph>
+      <Sentence>You are walking home late at night when you hear some suspicious sounds coming from a nearby garden.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>You move to investigate, and a shadowy figure bolts in the opposite direction carrying an armful of vegetables.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_23_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Give chase.</Sentence>
+      <Sentence>Thieves must be brought to justice.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_23_OPT_00_STORY">
+    <Paragraph>
+      <Sentence>The figure overburdened with vegetables is no match for your speed.</Sentence>
+      <Sentence>You quickly run him down and deliver him to the city guard.</Sentence>
+      <Sentence>Thankfully very little of the produce was damaged in the pursuit, and you are able to return it to the owner of the garden.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_23_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>The thief had the right idea.</Sentence>
+      <Sentence>Grab some vegetables for yourself.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_23_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>In an area cut off from civilization with no viable farmland, fresh vegetables are a rare commodity.</Sentence>
+      <Sentence>The thief already made off with an armful, so what's the harm in taking some more?</Sentence>
+      <Sentence>When you get back to your room, you cook up a nice hearty soup and have a great meal.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_24_STORY">
+    <Paragraph>
+      <Sentence>Upon returning to the city after your latest adventure, you are approached by a high-ranking guard at the gate.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"Ah, good, I'm glad to have caught you." the guard begins.</Sentence>
+      <Sentence>"The capital has fallen behind on shipments of wood to Gloomhaven, so now it falls to us to pick up the slack so that construction of important city buildings dones't stagnate."</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>The guard points to the east.</Sentence>
+      <Sentence>"We're forming an expedition to gather logs from the Corpsewood.</Sentence>
+      <Sentence>We could use your help, either to guard against enemies or to chop down trees."</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_24_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Join the expedition as a guard.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_24_OPT_00_STORY">
+    <Paragraph>
+      <Sentence>The logging expedition heads to the outskirts of the Corpsewood and begins felling trees and transporting them back to Gloomhaven.</Sentence>
+      <Sentence>You stay on your guard, patrolling the area and making sure there are no surprise attacks.</Sentence>
+      <Sentence>A couple hours in, a trive of Vermlings appear through the woods, but you are alert and prepared, dispatching them without a single casualty.</Sentence>
+      <Sentence>The rest of the day goes by uneventfully.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_24_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Join the expedition as a logger.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_24_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>You journey out to the Corpsewood, axe in hand, and begin chopping away at the trees.</Sentence>
+      <Sentence>You seem to have a natural skill with it, probably due to all the practice you get swinging a blade.</Sentence>
+      <Sentence>Thanks to your help, the city is able to gather a large amount of extra wood for construction.</Sentence>
+      <Sentence>You encounter some dangers throughout the day, but nothing you cannot handle.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_25_STORY">
+    <Paragraph>
+      <Sentence>On a trip to the Coin District, you catch sight of an old, wiry Valrath carrying a large, intricate vase out of his front door.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>As you get closer, the Valrath begins to struggle with the vase, sweat pouring from his brow.</Sentence>
+      <Sentence>Under the strain, the Valrath loses his balance, and the fragile vase topples downward as he yells a string of curses.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_25_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Attempt to catch the vase.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_25_OPT_00_CON_00_STORY">
+    <Paragraph>
+      <Sentence>You race forward and wrap your arms around the vase.</Sentence>
+      <Sentence>You manage to keep grip of it, preventing tragedy.</Sentence>
+      <Sentence>The Valrath is relieved and offers to pay you for your trouble if you carry it the rest of the way.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_25_OPT_00_CON_01_STORY">
+    <Paragraph>
+      <Sentence>You race forward and attempt to catch the vase, but it is too much for you.</Sentence>
+      <Sentence>Your grip loosens and the vase shatters into a hundred pieces.</Sentence>
+      <Sentence>The Valrath is irate, demanding compensation from you for breaking it.</Sentence>
+      <Sentence>You pay him what you can.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_25_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>With no time to react, watch the vase fall to the ground.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_25_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>You watch helplessly as the vase careens out of the Valrath's grasp and, once it connects with the hard ground, shatters into a hundred pieces.</Sentence>
+      <Sentence>The Valrath looks distraught and a little angry.</Sentence>
+      <Sentence>You exchange a sympathetic glance with him and then continue about your business.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_26_STORY">
+    <Paragraph>
+      <Sentence>While enjoying your customary post-adventure drink at the Sleeping Lion, you notice something weird going on with the lamps in the bar.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>Your first thought is that it is your imagination, but after staring at the lamps intently, you see there are flickering in and out.</Sentence>
+      <Sentence>Tech lamps, as opposed to normal gas-burning ones, have been known to be a bit unreliable.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>As if on cue, the lamps suddenly go out completely, leaving the room pitch-black.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_26_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Offer to fix the lamps.</Sentence>
+      <Sentence>It shouldn't be too hard with a bit of technical know-how.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_26_OPT_00_CON_00_STORY">
+    <Paragraph>
+      <Sentence>You quickly identify the source of the problem - some frayed wiring in the kitchen - and have it replaced in no time.</Sentence>
+      <Sentence>The proprietor seems very impressed by your work and gives free drinks all around in your name.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_26_OPT_00_CON_01_STORY">
+    <Paragraph>
+      <Sentence>You fumble about magnanimously for a while before concluding that you have no idea what you're doing.</Sentence>
+      <Sentence>The proprietor looks disappointed and sends out for a real tinkerer.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_26_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Take the opportunity to steal some valuables from drunk patrons in the dark.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_26_OPT_01_CON_00_STORY">
+    <Paragraph>
+      <Sentence>The darkness gives the less scrupulous among you a good chance to perform their craft.</Sentence>
+      <Sentence>Within a matter of minutes, your coin purses are much heavier.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_26_OPT_01_CON_01_STORY">
+    <Paragraph>
+      <Sentence>You attempt to lighten some purses, but even in the dark, you find the task a little outside your skill set.</Sentence>
+      <Sentence>One patron catches your hand as it searches his belt.</Sentence>
+      <Sentence>He starts yelling, and you flee as quickly as possible.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_27_STORY">
+    <Paragraph>
+      <Sentence>You are out in the Ward of Scales when you see a crowd of people forming to the south, growing louder and more dense by the second.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>As you approach, you see through the angry mob a terrified Vermling being pulled in your direction by a group of gruff men.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"Dirty thief!" a woman next to you screams.</Sentence>
+      <Sentence>"String it up!"</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>Glancing behind you to where the crowd appears to be headed, you see a disued gibbet in the market square.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>The men - clearly not guards - move closer.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_27_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Attempt to stop the crowd from hanging the Vermling.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_27_OPT_00_CON_00_STORY">
+    <Paragraph>
+      <Sentence>You keep a calm demeanor as you try to talk down the mob.</Sentence>
+      <Sentence>It takes some effort, but the men finally agree to turn the thief over to the authorities, which stops the situation from devolving into chaos.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_27_OPT_00_CON_01_STORY">
+    <Paragraph>
+      <Sentence>You kindly entreat the crowd to back down, and when that doesn't work, you resort to force.</Sentence>
+      <Sentence>No one seems happy that you stopped the hanging, but it was the right thing to do.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_27_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Take no action and see this through to its logical conclusion.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_27_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>You watch as the men move past you toward the gibbet.</Sentence>
+      <Sentence>One carries a thick rope that he ties around the Vermling's neck.</Sentence>
+      <Sentence>The other end of the rope is thrown over the cross beam and then the men begin pulling, hoisting the helpless thief up off his feet.</Sentence>
+      <Sentence>He struggles in vain, a panicked look in his eyes, but eventually he stops moving.</Sentence>
+      <Sentence>The men tie off the rope, leaving the lifeless thief hanging.</Sentence>
+      <Sentence>People begin to mill about, many stopping to spit on the ground before returning to work.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_28_STORY">
+    <Paragraph>
+      <Sentence>Ah, the Sleeping Lion.</Sentence>
+      <Sentence>Surely there is not better place to get a drink and relax after clearing out some dank dungeon.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>On this particular occasion, though, you are approached by a heavily scarred Inox.</Sentence>
+      <Sentence>She sits at your table and pushes forward a piece of paper.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"An interested party would like to hire you to steal a valuable figurine from a residence in the Battlements," she says matter-of-factly.</Sentence>
+      <Sentence>"The details are on the paper.</Sentence>
+      <Sentence>Meet me in the back alley in two days' time after the job is done."</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_28_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Accept the mysterious job.</Sentence>
+      <Sentence>You can handle anything.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_28_OPT_00_CON_00_STORY">
+    <Paragraph>
+      <Sentence>The job proves easy enough with the proper expertise.</Sentence>
+      <Sentence>The plans are simple, and you are in and out of the estate easily, free to meet up with the Inox and claim your payment.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_28_OPT_00_CON_01_STORY">
+    <Paragraph>
+      <Sentence>It turns out confidence isn't enough when it comes to sneaking in and out of a well-guarded estate without being seen.</Sentence>
+      <Sentence>You didn't get the figurine, and one of the guards got a pretty good look at you.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_28_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Incredulously explain she must have the wrong people and you won't take the job.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_28_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>You grab the Inox's arm as she is getting up to leave and push the paper back toward her.</Sentence>
+      <Sentence>She looks incredibly angry as you explain that your group doesn't do this sort of thing.</Sentence>
+      <Sentence>She wordlessly grabs the plans and storms out of the bar.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_29_STORY">
+    <Paragraph>
+      <Sentence>You get word from a contact that there is trouble brewing down at the East Walls and decide to investigate.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>What you find is a large contingency of the city's Savvas workforce - the best builders you'll find anywhere - in open rebellion against the construction managers, demanding better pay for the specialized work they perform.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"This city would be a lifeless pile of rocks without us!" one of the Savvas yells.</Sentence>
+      <Sentence>"It's time we see some of its prosperity!"</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>The manager on the other side of the argument looks like a captured mouse, not sure at all how to get out of the situation.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_29_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Talk to the Savvas, appealing to their sense of duty and community.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_29_OPT_00_CON_00_STORY">
+    <Paragraph>
+      <Sentence>The workers' hard expressions soften a bit when they see a Savvas among you.</Sentence>
+      <Sentence>You talk for a while and explain that they need the city just as much as the city needs them.</Sentence>
+      <Sentence>In the end, you sell them on a smaller wage increase, and everyone returns to work.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_29_OPT_00_CON_01_STORY">
+    <Paragraph>
+      <Sentence>Even after much effort, the workers won't speak to you at all, calling you part of the problem.</Sentence>
+      <Sentence>The strike is eventually resolved, but no one seems happy.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_29_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Talk to the managers and attempt to get the Savvas better pay.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_29_OPT_01_CON_00_STORY">
+    <Paragraph>
+      <Sentence>"I-I just can't give them more money!" the manager pleads.</Sentence>
+      <Sentence>After some persuasion, though, he seems to open up to negotiation.</Sentence>
+      <Sentence>The workers and management meet halfway and everyone seems content.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_29_OPT_01_CON_01_STORY">
+    <Paragraph>
+      <Sentence>You just can't get the manager to budge on his position, and he only gets angrier with continued pushing.</Sentence>
+      <Sentence>The Savvas eventually agree tentatively to continue work, but the underlying problem remains.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_30_STORY">
+    <Paragraph>
+      <Sentence>As you shop for supplies at the Sinking Market, your hand instinctively goes for the purse at your waist.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>It's gone!</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>You quickly scan the crowd and see a small Vermling darting away from you, heading directly toward a sewer grating.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_30_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Give chase!</Sentence>
+      <Sentence>No one steals from you and gets away with it.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_30_OPT_00_CON_00_STORY">
+    <Paragraph>
+      <Sentence>The Vermling escapes into the sewers, but the Mindthief is able to give chase, catching up as the cutpurse enters his nest.</Sentence>
+      <Sentence>There you find more wealth than what was lost.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_30_OPT_00_CON_01_STORY">
+    <Paragraph>
+      <Sentence>The Vermling disappears into the sewers, and you try to give chase.</Sentence>
+      <Sentence>But after a few minutes you are hopelessly lost and are forced to give up.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_30_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Take a clear shot at him with a bow before he disappears into the grating.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_30_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>You raise your bow and take aim at the thief.</Sentence>
+      <Sentence>A woman screams, but you try not to let it faze you.</Sentence>
+      <Sentence>As the Vermling pauses to open the grate, you fire the arrow and see the furry figure drop.</Sentence>
+      <Sentence>You smile and go to retrieve your gold from the corpse.</Sentence>
+      <Sentence>You get a lot of dirty looks, though.</Sentence>
+      <Sentence>Apparently firing a bow on a crowded street is frowned upon.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_38_STORY">
+    <Paragraph>
+      <Sentence>Walking through the crowded streets of the Ward of Scales, you suddenly hear a commotion behind you.</Sentence>
+      <Sentence>You turn to see a gruff shirtless man badgering a male Orchid.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"I assure you, I did nothing of the sort," the Orchid says calmly.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"You calling me a liar now?" bellows the man.</Sentence>
+      <Sentence>"I think somebody needs to teach you a lesson."</Sentence>
+      <Sentence>The man careens forward with his fist and knocks the Orchid to the ground.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>A gasp emerges from the crowd, but very quickly the attitude turns to excitement and encouragement.</Sentence>
+      <Sentence>Nothing like a good fight to get a crowd worked up.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_38_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Intervene on the Orchid's behalf.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_38_OPT_00_CON_00_STORY">
+    <Paragraph>
+      <Sentence>The Orchid on the ground puts up no defense, but your group is a different matter.</Sentence>
+      <Sentence>The man quickly backs down at the sight of a powerful Orchid ready to attack, and the crowd disperses, muttering disappointment.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_38_OPT_00_CON_01_STORY">
+    <Paragraph>
+      <Sentence>You try to talk some sense into the man, and when that doesn't work, you beat him senseless.</Sentence>
+      <Sentence>The crowd seems happy and the Orchid thanks you for your aid.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_38_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Watch the fight with the crowd.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_38_OPT_01_CON_00_STORY">
+    <Paragraph>
+      <Sentence>After a good beating, the crowd is riled up.</Sentence>
+      <Sentence>Many people start looking in your direction, muttering about how you have the nerve to associate with Orchids as well.</Sentence>
+      <Sentence>You make a quick exit.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_38_OPT_01_CON_01_STORY">
+    <Paragraph>
+      <Sentence>The Orchid puts up no defense and the "fight" becomes rather one-sided.</Sentence>
+      <Sentence>A solid beating is administered, and the crowd is sated.</Sentence>
+      <Sentence>You go about your business while the Orchid bleeds on the ground.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_40_STORY">
+    <Paragraph>
+      <Sentence>You are shopping for supplies in the Boiler's District when an intense explosion knocks you off your feet.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>You look in the direction of the heat waves to see plumes of fire and smoke rising from a building less than a block away.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>The fire rages uncontrollably and there are many wounded residents laying near the blast, screaming in pain.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>You also spot something else - a hooded figure in a dark robe fleeing from the scene.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_40_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Rush to the aid of the residents and help put out the fire.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_40_OPT_00_CON_00_STORY">
+    <Paragraph>
+      <Sentence>Some of your group immediately begin to tend to the wounded, bandaging cuts and administering potions.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_40_OPT_00_CON_01_STORY">
+    <Paragraph>
+      <Sentence>Some of your group begin to control the fire and snuff it with their elemental prowess, preventing further damage.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_40_OPT_00_CON_02_STORY">
+    <Paragraph>
+      <Sentence>You do your best, but without the proper skills, it isn't much.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_40_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Pursue the hooded figure and make him answer for this attack.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_40_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>You jump to your feet and sprint as fast as you can in pursuit.</Sentence>
+      <Sentence>The figure races toward the city wall and begins to climb the stairs.</Sentence>
+      <Sentence>You close the gap, but look on in frustration as he moves to jump over the wall and out of the city.</Sentence>
+      <Sentence>You lunge and grab his robe as he falls.</Sentence>
+      <Sentence>His body twists awkwardly, freeing him of the robe.</Sentence>
+      <Sentence>You look over the edge to see him land face-first on the ground and not get up.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_41_STORY">
+    <Paragraph>
+      <Sentence>The Sinking Market is a varied area of decrepit huts and merchants unable to sell their wares anywhere else.</Sentence>
+      <Sentence>It doesn't surprise you as you walk through to see a scraggly Vermling approach with a small sack.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"A potion for the big, strong adventurers!" she says as she waves you down.</Sentence>
+      <Sentence>"Help you in battle, it will!"</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>You are about to push her aside and keep walking when she pulls the potion out of the sack.</Sentence>
+      <Sentence>It glows green in the daylight - an impressive large flask of master craftsmanship.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"Aha, I knew it catch your eye!</Sentence>
+      <Sentence>How much you pay?"</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_41_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Barter with the Vermling for the potion.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_41_OPT_00_CON_00_STORY">
+    <Paragraph>
+      <Sentence>The Vermling knows it is valuable, but she is more interested in flirting with the Beast Tyrant.</Sentence>
+      <Sentence>She is happy to sell the potion at a discount.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_41_OPT_00_CON_01_STORY">
+    <Paragraph>
+      <Sentence>No amount of haggling can lower the Vermling's high price.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_41_OPT_00_CON_02_STORY">
+    <Paragraph>
+      <Sentence>The Vermling will not accept the tiny sum you offer.</Sentence>
+      <Sentence>Maybe next time.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_41_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Move along.</Sentence>
+      <Sentence>You don't need any more potions.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_41_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>Shaking your head, you move past the Vermling and get back to your business.</Sentence>
+      <Sentence>She beings to make sobbing sounds behind you.</Sentence>
+      <Sentence>"But, but you die without potion! Is life worth nothing?"</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_42_STORY">
+    <Paragraph>
+      <Sentence>Walking near the West Gate, you are approached by a scrawny kid in a guard uniform, which is clearly too big for his small frame.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"Hey, you all are famous!" he says with a big smile.</Sentence>
+      <Sentence>"I worked as a caravan guard before I got this job.</Sentence>
+      <Sentence>Met with a big Inox guy who always talked about you.</Sentence>
+      <Sentence>He made you seem like the nicest, most amazing people."</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>His smile and excitement doesn't waver.</Sentence>
+      <Sentence>"Say, my detail is doing some work to repair the wall damage from the last Vermling attack.</Sentence>
+      <Sentence>Would you mind helping us? It'll be fun!"</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_42_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Agree to help the presumptuous kid.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_42_OPT_00_STORY">
+    <Paragraph>
+      <Sentence>It's hard work, but the kid's enthusiasm is infectious.</Sentence>
+      <Sentence>He wants to know all about your exploits and adventures, and he and his detail prove to be a great audience.</Sentence>
+      <Sentence>By the end of the day, it hardly feels like you've worked at all.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_42_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Tell this kid that he must have the wrong group of adventurers.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_42_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>You shake your head and avert your gaze.</Sentence>
+      <Sentence>You claim that the kid must have you confused with a different adventuring party.</Sentence>
+      <Sentence>He looks crushed as you walk away.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_49_STORY">
+    <Paragraph>
+      <Sentence>"Your Quartermaster friend sent me."</Sentence>
+      <Sentence>You look quizzically at the Valrath standing at your door.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"I'm from the Capital, and I deal in arms and armor," he says.</Sentence>
+      <Sentence>"I'm looking to set up a contract with the Gloomhaven military, and our friend says that you may have some contacts with them.</Sentence>
+      <Sentence>He suggested I meet up with you once I got here."</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>The Valrath shifts his feet nervously.</Sentence>
+      <Sentence>"So, can you help me?"</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_49_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Agree to help him make contact with the military.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_49_OPT_00_STORY">
+    <Paragraph>
+      <Sentence>You take the Valrath over to the Ghost Fortress, where you make introductions to the Captain of the Guard.</Sentence>
+      <Sentence>The Captain seems skeptical at first, but admits that they could use an additional supply of weapons.</Sentence>
+      <Sentence>Terms are made, and a contract is signed.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_49_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Demand a finder's fee for setting him up with buyers.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_49_OPT_01_CON_00_STORY">
+    <Paragraph>
+      <Sentence>The Valrath looks at you with trepidation, but after some persuasion, you get him to agree.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_49_OPT_01_CON_01_STORY">
+    <Paragraph>
+      <Sentence>The Valrath recoils, insulted by the notion. He storms off, grumbling about the lost value of friendship.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_55_STORY">
+    <Paragraph>
+      <Sentence>"Ah, they said I might be able to find you here."</Sentence>
+      <Sentence>A portly Valrath woman looks down at you as you are enjoying a cold beverage at the Sleeping Lion.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"A group of wild-looking Orchids came to the Temple of Coin today hoping to engage in trade with the merchants of the city.</Sentence>
+      <Sentence>One particularly dour-looking one with a bow said you lot would vouch for them.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"We're always wary of traps and betrayal out here on the edge of the wilds, but if you think these Orchids can be trusted, then the Merchant's Guild may consider opening trade with them."</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_55_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Vouch for the Orchids.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_55_OPT_00_STORY">
+    <Paragraph>
+      <Sentence>"Well, we'll take it under advisement.</Sentence>
+      <Sentence>Personally, I don't even know why your opinion matters, but some people in the Merchant's Guild seem to like you.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"Anyway, feel free to get back to your life of consumption and murder."</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_55_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Advise against trading with the Orchids.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_55_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>The Valrath woman nods.</Sentence>
+      <Sentence>"I agree.</Sentence>
+      <Sentence>Orchids are not to be trusted.</Sentence>
+      <Sentence>Personally, I thought you lacked the brains to make a proper decision, but I'm happy to be proven wrong."</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_71_STORY">
+    <Paragraph>
+      <Sentence>You are walking along the river's edge in the Mixed District late at night when something in your pack begins to vibrate.</Sentence>
+      <Sentence>The sensation is odd and you quickly fish out the small metal sphere you found out on the road.</Sentence>
+      <Sentence>It shakes uncontrollably and then begins pulling your arm toward the river.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>You walk to the bank, but still the sphere pulls.</Sentence>
+      <Sentence>It is drawn to something in the water.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_71_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Let the sphere go.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_71_OPT_00_STORY">
+    <Paragraph>
+      <Sentence>The sphere leaps from your hand, hovers over the water, and then emits an intense beam of light straight down into the river, illuminating something below.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>You shrug and jump into the river, following the beam of light down to the bottom.</Sentence>
+      <Sentence>There you find a wooden chest half buried under the rocks.</Sentence>
+      <Sentence>You bring it back to shore and open it to find a small metal rod covered in strange carvings.</Sentence>
+      <Sentence>When you pick it up, the sphere immediately flies back over to you and attaches itself to the rod's end.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_71_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Jump into the river and continue to follow the sphere's pull.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_71_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>As soon as you enter the cold, brackish waters, the sphere stops vibrating or pulling.</Sentence>
+      <Sentence>You swim for a while in the direction it was pulling, but eventually you realize you are on a fool's errand.</Sentence>
+      <Sentence>You emerge from the river wet and miserable with absolutely nothing to show for it.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_78_STORY">
+    <Paragraph>
+      <Sentence>The scene is typical.</Sentence>
+      <Sentence>A nervous-looking man stands in front of your table at the Sleeping Lion.</Sentence>
+      <Sentence>You eye him lazily until he speaks.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"I was, um, told you might be able to help me." he starts.</Sentence>
+      <Sentence>"I was in the Corpsewood conducting some, uh, business, when my partners and I were attacked by Vermlings.</Sentence>
+      <Sentence>I barely escaped with my life, but my partners weren't so lucky.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"One of them was carrying something valuable - an artifact we mangaged to find in our, uh, business.</Sentence>
+      <Sentence>It's very important I get it back.</Sentence>
+      <Sentence>I followed the Vermlings back to their nest, and I can assure you they have many valuables.</Sentence>
+      <Sentence>I'll show you where it is, and you can take whatever you want.</Sentence>
+      <Sentence>Just bring me back the artifact."</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_78_OPT_00">
+    <Paragraph>
+      <Sentence>Option A:</Sentence>
+      <Sentence>Accept the man's deal.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_78_OPT_00_STORY">
+    <Paragraph>
+      <Sentence>The sweaty man is all too eager to give you the details of where to find this nest.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"Once you clear the Vermlings and find the artifact, you should be able to locate a large stash of valuables in a pit back behind the main camp.</Sentence>
+      <Sentence>Take whatever you want, just return the artifact to me."</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>You smile and nod.</Sentence>
+      <Sentence>After taking the valuables, you should be able to squeeze quite a bit extra out of this fellow as well when you return.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_78_OPT_01">
+    <Paragraph>
+      <Sentence>Option B:</Sentence>
+      <Sentence>Demand payment for the job up-front.</Sentence>
+    </Paragraph>
+  </Translation>
+  <Translation key="CITYCARD_78_OPT_01_STORY">
+    <Paragraph>
+      <Sentence>"Look... I, ah, don't have a whole lot of capital right now, but I will give you everything I have once you get back with that artifact."</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>You narrow your eyes at him.</Sentence>
+      <Sentence>He coughs nervously and produces a small handful of coins.</Sentence>
+    </Paragraph>
+    <Paragraph>
+      <Sentence>"All right, fine.</Sentence>
+      <Sentence>Look, here.</Sentence>
+      <Sentence>This is all I can offer you.</Sentence>
+      <Sentence>Now can we get to the part where you go to do your job?"</Sentence>
+    </Paragraph>
+  </Translation>
+
+  <Translation key="CITY">
+    <Paragraph>
+      <Sentence></Sentence>
+    </Paragraph>
+  </Translation>
+  
 </Translations>

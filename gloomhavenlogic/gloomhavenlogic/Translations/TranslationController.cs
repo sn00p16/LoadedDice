@@ -120,8 +120,9 @@ namespace gloomhavenlogic.Translations
                 story += LoadParagraph(paragraph_node);
                 paragraph_node = paragraph_node.NextNode as XElement;
 
+                story += "\r\n";
                 if (paragraph_node != null)
-                    story += "\r\n\r\n";
+                    story += "\r\n";
             }
 
             Translations[CurrentLanguage].Add(translation_key, story);
