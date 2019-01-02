@@ -5,25 +5,49 @@ using System.Text;
 
 namespace gloomhavenlogic.Combat
 {
-    public enum AttackModifierType
-    {
-        Undefined = -1,
-
-        Adjust,
-        Multiplier,
-        Miss,
-        
-        Max
-    }
-
     public class AttackModifierCard : Card
     {
-        public AttackModifierCard() : base() { Type = AttackModifierType.Undefined; Value = 0; }
-        public AttackModifierCard(AttackModifierType type, int value) : this() { Type = type; Value = value; }
+        public AttackModifierCard() : base()
+        {
+            Type = AttackModifierType.Undefined;
+            Ability = Ability.Undefined;
+            Condition = Condition.Undefined;
+            Element = Element.Undefined;
+
+            Value = 0;
+            Shuffle = false;
+            RollOn = false;
+        }
+        public AttackModifierCard(AttackModifierType type, int value) : this()
+        {
+            Type = type;
+            Value = value;
+        }
+        public AttackModifierCard(AttackModifierType type, int value, bool shuffle, bool rollon) : this(type, value)
+        {
+            Shuffle = shuffle;
+            RollOn = rollon;
+        }
+        public AttackModifierCard(Ability ability, int value, bool shuffle, bool rollon) : this(AttackModifierType.Standard, value, shuffle, rollon)
+        {
+            Ability = ability;
+        }
+        public AttackModifierCard(Condition condition, int value, bool shuffle, bool rollon) : this(AttackModifierType.Standard, value, shuffle, rollon)
+        {
+            Condition = condition;
+        }
+        public AttackModifierCard(Element element, int value, bool shuffle, bool rollon) : this(AttackModifierType.Standard, value, shuffle, rollon)
+        {
+            Element = element;
+        }
 
         public AttackModifierType Type { get; protected set; }
+        public Ability Ability { get; protected set; }
+        public Condition Condition { get; protected set; }
+        public Element Element { get; protected set; }
+
         public int Value { get; protected set; }
         public bool Shuffle { get; protected set; }
-        public bool Redraw { get; protected set; }
+        public bool RollOn { get; protected set; }
     }
 }
