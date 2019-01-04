@@ -8,6 +8,8 @@ namespace gloomhavenlogic.Combat
     {
         Undefined = -1,
 
+        Attack,
+        Move,
         Push,
         Pull,
         Pierce,

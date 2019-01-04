@@ -10,7 +10,7 @@ namespace gloomhavenlogic.Combat
         public AttackModifierCard() : base()
         {
             Type = AttackModifierType.Undefined;
-            Ability = Ability.Undefined;
+            Ability = SecondaryAbility.Undefined;
             Condition = Condition.Undefined;
             Element = Element.Undefined;
 
@@ -28,7 +28,7 @@ namespace gloomhavenlogic.Combat
             Shuffle = shuffle;
             RollOn = rollon;
         }
-        public AttackModifierCard(Ability ability, int value, bool shuffle, bool rollon) : this(AttackModifierType.Standard, value, shuffle, rollon)
+        public AttackModifierCard(SecondaryAbility ability, int value, bool shuffle, bool rollon) : this(AttackModifierType.Standard, value, shuffle, rollon)
         {
             Ability = ability;
         }
@@ -42,7 +42,7 @@ namespace gloomhavenlogic.Combat
         }
 
         public AttackModifierType Type { get; protected set; }
-        public Ability Ability { get; protected set; }
+        public SecondaryAbility Ability { get; protected set; }
         public Condition Condition { get; protected set; }
         public Element Element { get; protected set; }
 
