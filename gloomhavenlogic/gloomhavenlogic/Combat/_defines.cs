@@ -57,9 +57,26 @@ namespace gloomhavenlogic.Combat
     {
         Undefined = -1,
 
-        Standard,
-        Critical,
-        Miss,
+        DamageMultiplier,
+        DamageAdjust,
+        RangeAdjust,
+
+        Element,
+        Heal,
+        Shield,
+        Bless,
+        AddTarget,
+
+        Curse,
+        Push,
+        Pull,
+        Stun,
+        Strengthen,
+        Muddle,
+        Immobilize,
+        Disarm,
+        Poison,
+        Wound,
 
         Max
     }
