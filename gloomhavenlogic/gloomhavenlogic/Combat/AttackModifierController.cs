@@ -1,5 +1,6 @@
 ﻿using boardgamelogic.BaseComponents;
 using boardgamelogic.Collections;
+using gloomhavenlogic.Combat.Modifiers;
 using gloomhavenlogic.Party;
 using System;
 using System.Collections.Generic;
@@ -25,33 +26,7 @@ namespace gloomhavenlogic.Combat
             // Draw modifier cards
             DrawModifierCards(deck, pull_type);
 
-            var adjustCards = new List<Card>();
-            var otherCards = new List<Card>();
-            var currentAttackValue = attack_value;
-
-            // Sort cards
-            foreach(var card in ActiveCards[deck])
-            {
-                if ((card as AttackModifierCard).Type == AttackModifierType.Standard)
-                    adjustCards.Add(card);
-                else
-                    otherCards.Add(card);
-            }
-
-            // Adjust values
-            foreach (var card in adjustCards)
-                currentAttackValue += (card as AttackModifierCard).Value;
-
-            // Double or Nothing
-            foreach(var card in otherCards)
-            {
-                if ((card as AttackModifierCard).Type == AttackModifierType.Critical)
-                    currentAttackValue *= (card as AttackModifierCard).Value;
-                else
-                    currentAttackValue = 0;
-            }
-
-            return currentAttackValue;
+            return 0;
         }
 
         public void ModifyDeck(PlayerPosition deck, List<Card> cardsToAdd, List<Card> cardsToRemove)
@@ -98,26 +73,26 @@ namespace gloomhavenlogic.Combat
             // Standard deck of 20 cards
             var standardCards = new List<Card>
             {
-                new AttackModifierCard(AttackModifierType.Critical, 2, true, false),    // 2x Critical
-                new AttackModifierCard(AttackModifierType.Miss, 0, true, false),        // Miss
-                new AttackModifierCard(AttackModifierType.Standard, +2),                  // +2
-                new AttackModifierCard(AttackModifierType.Standard, +1),                  // +1
-                new AttackModifierCard(AttackModifierType.Standard, +1),                  // +1
-                new AttackModifierCard(AttackModifierType.Standard, +1),                  // +1
-                new AttackModifierCard(AttackModifierType.Standard, +1),                  // +1
-                new AttackModifierCard(AttackModifierType.Standard, +1),                  // +1
-                new AttackModifierCard(AttackModifierType.Standard, 0),                   // 0
-                new AttackModifierCard(AttackModifierType.Standard, 0),                   // 0
-                new AttackModifierCard(AttackModifierType.Standard, 0),                   // 0
-                new AttackModifierCard(AttackModifierType.Standard, 0),                   // 0
-                new AttackModifierCard(AttackModifierType.Standard, 0),                   // 0
-                new AttackModifierCard(AttackModifierType.Standard, 0),                   // 0
-                new AttackModifierCard(AttackModifierType.Standard, -1),                  // -1
-                new AttackModifierCard(AttackModifierType.Standard, -1),                  // -1
-                new AttackModifierCard(AttackModifierType.Standard, -1),                  // -1
-                new AttackModifierCard(AttackModifierType.Standard, -1),                  // -1
-                new AttackModifierCard(AttackModifierType.Standard, -1),                  // -1
-                new AttackModifierCard(AttackModifierType.Standard, -2)                   // -2
+                new AttackModifierCard(new List<AttackModifier> { new DamageMultiplierModifier(2) }, true, false),
+                new AttackModifierCard(new List<AttackModifier> { new DamageAdjustModifier(+2) }),
+                new AttackModifierCard(new List<AttackModifier> { new DamageAdjustModifier(+1) }),
+                new AttackModifierCard(new List<AttackModifier> { new DamageAdjustModifier(+1) }),
+                new AttackModifierCard(new List<AttackModifier> { new DamageAdjustModifier(+1) }),
+                new AttackModifierCard(new List<AttackModifier> { new DamageAdjustModifier(+1) }),
+                new AttackModifierCard(new List<AttackModifier> { new DamageAdjustModifier(+1) }),
+                new AttackModifierCard(new List<AttackModifier> { new DamageAdjustModifier(0) }),
+                new AttackModifierCard(new List<AttackModifier> { new DamageAdjustModifier(0) }),
+                new AttackModifierCard(new List<AttackModifier> { new DamageAdjustModifier(0) }),
+                new AttackModifierCard(new List<AttackModifier> { new DamageAdjustModifier(0) }),
+                new AttackModifierCard(new List<AttackModifier> { new DamageAdjustModifier(0) }),
+                new AttackModifierCard(new List<AttackModifier> { new DamageAdjustModifier(0) }),
+                new AttackModifierCard(new List<AttackModifier> { new DamageAdjustModifier(-1) }),
+                new AttackModifierCard(new List<AttackModifier> { new DamageAdjustModifier(-1) }),
+                new AttackModifierCard(new List<AttackModifier> { new DamageAdjustModifier(-1) }),
+                new AttackModifierCard(new List<AttackModifier> { new DamageAdjustModifier(-1) }),
+                new AttackModifierCard(new List<AttackModifier> { new DamageAdjustModifier(-1) }),
+                new AttackModifierCard(new List<AttackModifier> { new DamageAdjustModifier(-2) }),
+                new AttackModifierCard(new List<AttackModifier> { new DamageMultiplierModifier(0) }, true, false)
             };
 
             // Add the standard cards to 

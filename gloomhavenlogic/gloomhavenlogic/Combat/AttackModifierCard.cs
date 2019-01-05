@@ -9,44 +9,23 @@ namespace gloomhavenlogic.Combat
     {
         public AttackModifierCard() : base()
         {
-            Type = AttackModifierType.Undefined;
-            Ability = SecondaryAbility.Undefined;
-            Condition = Condition.Undefined;
-            Element = Element.Undefined;
+            Modifiers = new List<AttackModifier>();
 
-            Value = 0;
             Shuffle = false;
             RollOn = false;
         }
-        public AttackModifierCard(AttackModifierType type, int value) : this()
+        public AttackModifierCard(List<AttackModifier> modifiers) : this()
         {
-            Type = type;
-            Value = value;
+            Modifiers.AddRange(modifiers);
         }
-        public AttackModifierCard(AttackModifierType type, int value, bool shuffle, bool rollon) : this(type, value)
+        public AttackModifierCard(List<AttackModifier> modifiers, bool shuffle, bool rollon) : this(modifiers)
         {
             Shuffle = shuffle;
             RollOn = rollon;
         }
-        public AttackModifierCard(SecondaryAbility ability, int value, bool shuffle, bool rollon) : this(AttackModifierType.Standard, value, shuffle, rollon)
-        {
-            Ability = ability;
-        }
-        public AttackModifierCard(Condition condition, int value, bool shuffle, bool rollon) : this(AttackModifierType.Standard, value, shuffle, rollon)
-        {
-            Condition = condition;
-        }
-        public AttackModifierCard(Element element, int value, bool shuffle, bool rollon) : this(AttackModifierType.Standard, value, shuffle, rollon)
-        {
-            Element = element;
-        }
 
-        public AttackModifierType Type { get; protected set; }
-        public SecondaryAbility Ability { get; protected set; }
-        public Condition Condition { get; protected set; }
-        public Element Element { get; protected set; }
-
-        public int Value { get; protected set; }
+        public List<AttackModifier> Modifiers { get; protected set; }
+        
         public bool Shuffle { get; protected set; }
         public bool RollOn { get; protected set; }
     }
