@@ -11,12 +11,12 @@ namespace gloomhavenlogic.Combat.Abilities
             Range = 0;
             Ranged = false;
         }
-        public AttackAbility(int value, List<BaseAbility> subabilities = null, List<Element> cost = null) : base(Ability.Attack, value, subabilities, cost)
+        public AttackAbility(int value) : base(Ability.Attack, value)
         {
             Range = 0;
             Ranged = false;
         }
-        public AttackAbility(int value, int range, List<BaseAbility> subabilities = null, List<Element> cost = null) : this(value)
+        public AttackAbility(int value, int range) : this(value)
         {
             Range = range;
             Ranged = true;

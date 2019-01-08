@@ -39,20 +39,6 @@ namespace gloomhavenlogic.Combat
         Max
     }
 
-    public enum Element
-    {
-        Undefined = -1,
-
-        Fire,
-        Ice,
-        Earth,
-        Wind,
-        Light,
-        Dark,
-
-        Max
-    }
-
     public enum AttackModifierType
     {
         Undefined = -1,
@@ -61,7 +47,7 @@ namespace gloomhavenlogic.Combat
         DamageAdjust,
         RangeAdjust,
 
-        Element,
+        ElementGeneration,
         Heal,
         Shield,
         Bless,
@@ -78,7 +64,10 @@ namespace gloomhavenlogic.Combat
         Poison,
         Wound,
 
-        Max
+        Max,
+
+        Combination,
+        ElementCost,
     }
 
     public enum AttackModifierPull

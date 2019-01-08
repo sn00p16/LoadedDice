@@ -23,5 +23,11 @@ namespace gloomhavenlogic.Combat
         {
             // Do something "tons of fun"
         }
+
+        public virtual bool CanApply()
+        {
+            // Can we apply this modifier (ie. elements etc)
+            return true;
+        }
     }
 }

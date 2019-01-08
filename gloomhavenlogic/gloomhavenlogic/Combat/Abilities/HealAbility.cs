@@ -11,17 +11,17 @@ namespace gloomhavenlogic.Combat.Abilities
             Range = 0;
             Self = false;
         }
-        public HealAbility(int value, List<BaseAbility> subabilities = null, List<Element> cost = null) : base(Ability.Heal, value, subabilities, cost)
+        public HealAbility(int value) : base(Ability.Heal, value)
         {
             Range = 0;
             Self = false;
         }
-        public HealAbility(int value, bool self, List<BaseAbility> subabilities = null, List<Element> cost = null) : this(value)
+        public HealAbility(int value, bool self) : this(value)
         {
             Range = 0;
             Self = self;
         }
-        public HealAbility(int value, int range, List<BaseAbility> subabilities = null, List<Element> cost = null) : this(value)
+        public HealAbility(int value, int range) : this(value)
         {
             Range = range;
             Self = false;

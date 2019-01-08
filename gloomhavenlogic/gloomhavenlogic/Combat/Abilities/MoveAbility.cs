@@ -10,11 +10,11 @@ namespace gloomhavenlogic.Combat.Abilities
         {
             Jump = false;
         }
-        public MoveAbility(int value, List<BaseAbility> subabilities = null, List<Element> cost = null) : base(Ability.Move, value, subabilities, cost)
+        public MoveAbility(int value) : base(Ability.Move, value)
         {
             Jump = false;
         }
-        public MoveAbility(int value, bool jump, List<BaseAbility> subabilities = null, List<Element> cost = null) : this(value)
+        public MoveAbility(int value, bool jump) : this(value)
         {
             Jump = true;
         }
