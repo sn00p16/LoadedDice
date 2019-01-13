@@ -4,6 +4,20 @@ using System.Text;
 
 namespace gloomhavenlogic.Party
 {
+    public enum PlayerPosition
+    {
+        Undefined = -1,
+
+        Player1,
+        Player2,
+        Player3,
+        Player4,
+
+        Monster,
+
+        Max
+    }
+
     public enum PartyAchievement
     {
         Undefined = -1,

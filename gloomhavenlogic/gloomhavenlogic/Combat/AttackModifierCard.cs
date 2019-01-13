@@ -5,25 +5,28 @@ using System.Text;
 
 namespace gloomhavenlogic.Combat
 {
-    public enum AttackModifierType
-    {
-        Undefined = -1,
-
-        Adjust,
-        Multiplier,
-        Miss,
-        
-        Max
-    }
-
     public class AttackModifierCard : Card
     {
-        public AttackModifierCard() : base() { Type = AttackModifierType.Undefined; Value = 0; }
-        public AttackModifierCard(AttackModifierType type, int value) : this() { Type = type; Value = value; }
+        public AttackModifierCard() : base()
+        {
+            Modifiers = new List<AttackModifier>();
 
-        public AttackModifierType Type { get; protected set; }
-        public int Value { get; protected set; }
+            Shuffle = false;
+            RollOn = false;
+        }
+        public AttackModifierCard(List<AttackModifier> modifiers) : this()
+        {
+            Modifiers.AddRange(modifiers);
+        }
+        public AttackModifierCard(List<AttackModifier> modifiers, bool shuffle, bool rollon) : this(modifiers)
+        {
+            Shuffle = shuffle;
+            RollOn = rollon;
+        }
+
+        public List<AttackModifier> Modifiers { get; protected set; }
+        
         public bool Shuffle { get; protected set; }
-        public bool Redraw { get; protected set; }
+        public bool RollOn { get; protected set; }
     }
 }
